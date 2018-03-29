@@ -1,0 +1,429 @@
+﻿<!--/ TASK COLUMN PANEL
+============================================= -->
+@{ 
+    var today = DateTime.UtcNow.AddHours(2);
+}
+
+<div class="col-lg-3 col-md-3 col-sm-6" ng-controller="createEditTaskCtr" id="TaskEditCreate" name="TaskEditCreate" ng-cloak>
+
+    <div class="panel panel-default task-column">
+
+        <div class="panel-heading">
+            Task
+            @*<span data-toggle="modal" ng-show="{{userCanCreateEdit}}" data-target="#addTask1" class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>*@
+            <button type="button" class="btn btn-info btn-sm pull-right" ng-show="{{userCanCreateEdit}}" data-toggle="modal" data-target="#addTask1">Add Task</button>
+            <br/>
+        </div>
+        <div class="panel-body">
+
+            <div ng-repeat="(key, task) in tasks">
+                @{
+                    Html.RenderPartial("_ListItemTaskPartial");
+                }
+            </div>
+
+            @*<div class="panel panel-default">
+                <div class="panel-body res-box" data-toggle="modal" data-target="#myTask1">
+                    <div class="col-md-12 notification"><hr class="hr-line-green"></div>
+                    <span class="res-title">Title Task 1</span>
+                    <div class="col-md-12 row">
+
+                        <span class="due-date-sticker green-sticker">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> July 18
+                        </span>
+
+                        <i class="fa fa-comments-o" aria-hidden="true"></i> 1
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body res-box" data-toggle="modal" data-target="#myTask1">
+                    <div class="col-md-12 notification"><hr class="hr-line-yellow"></div>
+                    <span class="res-title">Title Task 2</span>
+                    <div class="col-md-12 row">
+
+                        <span class="due-date-sticker yellow-sticker">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> July 21
+                        </span>
+
+                        <i class="fa fa-comments-o" aria-hidden="true"></i> 2
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body res-box" data-toggle="modal" data-target="#myTask1">
+                    <div class="col-md-12 notification"><hr class="hr-line-orange"></div>
+                    <span class="res-title">Title Task 3</span>
+                    <div class="col-md-12 row">
+
+                        <span class="due-date-sticker orange-sticker">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> Aug 11
+                        </span>
+
+                        <i class="fa fa-comments-o" aria-hidden="true"></i> 2
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body res-box" data-toggle="modal" data-target="#myTask1">
+                    <div class="col-md-12 notification"><hr class="hr-line-red"></div>
+                    <span class="res-title">Title Task 4</span>
+                    <div class="col-md-12 row">
+
+                        <span class="due-date-sticker red-sticker">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> Aug 21
+                        </span>
+
+                        <i class="fa fa-comments-o" aria-hidden="true"></i> 2
+                    </div>
+                </div>
+            </div>*@
+
+            <!-- Modal -->
+            <div class="modal fade" id="myTask1" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <button class="btn btn-info btn-task" ng-click="CompleteTask()" ng-show="usercanEditTask" data-dismiss="modal"> Complete Task </button>
+                            <h4 class="modal-title task-title">{{model.TASK_Name}}</h4>
+                        </div>
+
+                        <div class="col-md-12 inside-box">
+                            <div class="col-xs-9 ">
+                                <div class="col-md-12 left-inside">
+                                    <div class="col-md-12 row form-group">
+                                        <label class="title-content" for="form_description">
+                                            <i class="fa fa-list" aria-hidden="true"></i>
+                                            <span>
+                                                Description
+                                            </span>
+                                        </label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Write a description" rows="4" required="required" data-error="Please,leave us a message." ng-model="model.TASK_Desc" ng-blur="SaveDescription()" ng-disabled="usercannotEditTask"></textarea>
+                                        <div class="help-block with-errors"></div>
+
+                                        
+
+                                    </div>
+
+                                    <div class="col-md-12 row add-check">
+                                        <label class="title-content">
+                                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                            <span>
+                                                Checklist
+                                            </span>
+                                        </label>
+                                        <div ng-repeat="(key, check) in checklist">
+                                            @{
+                                                Html.RenderPartial("_ListItemCheckListPartial");
+                                            }
+                                        </div>
+
+                                        @*<div class="checkbox">
+                                            <label>
+                                                <input id="checkbox1" type="checkbox" value="">
+                                                <span>Go to paris</span>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input id="checkbox1" type="checkbox" value="">
+                                                <span>See My Sister</span>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label><input id="checkbox1" type="checkbox" value=""><span>Get a Beer</span></label>
+                                        </div>*@
+
+                                    </div>
+
+                                    <div class="col-md-12 row form-group">
+
+                                        <label class="title-content" for="form_description">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <span>
+                                                Members
+                                            </span>
+                                        </label>
+
+                                        <div class="col-md-12 member-list-add task-list">
+
+                                            <ul class="">
+                                                <li ng-repeat="(key, user) in usersDetails">    
+                                                    <a ng-click="deleteuser(key)" ng-show="{{user.displaymember}}" style="top:0;left:0;"><i class="fa fa-times pull-right"  style="background-color:goldenrod;height:20px;width:20px;font-size:15px;padding:1px" ng-show="usercanEditTask"></i></a>                                               
+                                                    <a href="#">
+                                                        <img ng-src="{{user.images}}" ng-show="{{user.displaymember}}" ng-attr-title="{{user.USERT_Name}}" class="img-responsive" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')" >
+                                                    </a>
+                                                </li>
+                                                @*<li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/8-min.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/people3.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/people2.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/people8.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/people4.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="#">
+                                                        <img src="/TaskManagementImages/people7.jpg" class="img-responsive">
+                                                    </a>
+                                                </li>*@
+
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div class="col-md-12 row form-group">
+
+                                        <label class="title-content" for="form_description">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <span>
+                                                Creator
+                                            </span>
+                                        </label>
+
+                                        <div class="col-md-12 member-list-add task-list">
+
+                                            <ul class="">
+                                                <li>
+                                                    <a href="#">
+                                                        <img ng-src="{{model.TASK_CreatorImage}}"  ng-attr-title="{{model.TASK_CreatorName}}" class="img-responsive" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')">
+                                                    </a>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-12 row form-group">
+                                        <label class="title-content" for="form_message"><i class="fa fa-comments-o" aria-hidden="true"></i><span>  Add Comment</span></label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."  ng-model="model.TaskComment"></textarea>
+                                        <div class="help-block with-errors"></div>
+
+                                        <div class="col-md-12 row">
+                                            <input type="submit" class="btn btn-info btn-send" value="Add comment" ng-click="addTaskComment()">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row task-activity">
+
+                                        <label class="title-content" for="form_message"><i class="fa fa-align-right" aria-hidden="true"></i><span>  Activity</span></label>
+
+                                        <!----ACTIVITIES--->
+                                        <div ng-repeat="(key, comment) in TaskComments">
+                                            @{
+                                                Html.RenderPartial("_ListItemCommentPartial");
+                                            }
+                                        </div>
+                                      
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-xs-3">
+                                <h4>Add</h4>
+
+                                <ul class="modal-add-list">
+
+                                    @*<li>
+                                        <button type="button" class="btn btn-add-list btn-sm"><i class="fa fa-tags" aria-hidden="true"></i>  Labels</button>
+                                    </li>*@
+                                    <li>
+                                        <button type="button" class="btn btn-add-list btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-clock-o" aria-hidden="true"></i> Due dates</button>
+
+                                        <div class="dropdown-menu calendar-picker">
+
+                                            <!--DATE PICKER--->
+                                            <div class="form-group col-md-12">
+                                                <label for="example-date-input" class="col-2 col-form-label">Date</label>
+                                                <div class="col-10">
+                                                    <input class="form-control" type="datetime-local" ng-model="model.TASK_ExpectedEndDate"   id="example-date-input" ng-blur="saveDateChanged()" ng-disabled="usercannotEditTask">
+                                                </div>
+                                                
+                                            </div>
+                                            <!--/DATE PICKER--->
+
+                                        </div>
+
+                                    </li>
+                                    <li>
+                                        <button type="button" class="btn btn-add-list btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-check-square-o" aria-hidden="true"></i> Add check</button>
+
+                                        <div class="dropdown-menu panel panel-default ">
+                                            <div class="panel-heading add-list">Add To Checklist</div>
+                                            @*<form>*@
+                                                <div class="col-md-12 form-group">
+
+
+                                                    <label for="QuickCheckList">Title</label>
+                                                    <input type="text" class="form-control" id="QuickCheckList" ng-model="model.QuickCheckList" ng-disabled="usercannotEditTask" >
+
+                                                </div>
+                                                @*<div class="col-md-12 form-group">
+
+                                                    <label for="QuickCheckListLevel">Weight</label>
+                                                    <input type="number" min="1" class="form-control" id="QuickCheckListLevel" ng-model="model.QuickCheckListLevel" ng-disabled="usercannotEditTask">
+
+                                                </div>*@
+
+                                                <div class="col-md-12">
+
+                                                    <input type="submit" class="btn btn-info add-list btn-send pull-right" value="ADD" ng-click="addQuiCheckList()" ng-show="usercanEditTask">
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li>
+                                        @*<button type="button" class="btn btn-add-list btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i>  Members</button>
+
+                                        <ul class="dropdown-menu member-picker">
+                                            <li><a href="#">HTML</a></li>
+                                            <li><a href="#">CSS</a></li>
+                                            <li><a href="#">JavaScript</a></li>
+                                        </ul>*@
+
+                                        <input type="text" autocomplete="off"
+                                               placeholder="Add Member"
+                                               id="MemeberResult"
+                                               class="form-control"
+                                               ng-model="model.searchTerm"
+                                               ng-keyup="memberSearchClick(model.searchTerm)"
+                                               ng-disabled="usercannotEditTask"/>
+
+                                        <div class="auto-complete-container auto-complete-absolute-container" ng-show="showResult" style="width: 280px; margin-right:40px;" >
+                                            <ul class="auto-complete-results" >
+                                                <li class="auto-complete-item" ng-repeat="item in listResultItems track by $index" ng-click="ItemSelected($index)">
+                                                    <div><span>{{item}}</span></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                        <ul></ul>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!---MODAL END---->
+
+            <div id="demo" class="collapse collapse2">
+                <div class="form-group">
+
+                    <textarea class="form-control" id="exampleTextarea" rows="3" ng-model="model.addQuickTaskDescription"></textarea>
+                    <button class="btn btn-save-add btn-info pull-right"  ng-click="addQuickTask()">SAVE</button>
+                    <button class="btn btn-save-add btn-close2 btn-danger" ng-click="cancelQuickAddTAsk()"><i class="fa fa-times" aria-hidden="true"></i></button>
+
+                    <div class="pull-right margin-left-5">
+
+                        <button class="btn btn-save-add dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-plus" aria-hidden="true"></i></button>
+
+                        @*<ul class="dropdown-menu member-picker">
+                            <li><a href="#">Armand</a></li>
+                            <li><a href="#">Manuella</a></li>
+                            <li><a href="#">Kevin</a></li>
+                        </ul>*@
+                        <div class="dropdown-menu member-picker">
+                            <input class="form-control" type="text" autocomplete="off"
+                                   placeholder="Add Member"
+                                   id="MemeberResult"
+                                   ng-model="model.quickSearchTerm"
+                                   ng-keyup="quickmemberSearchClick(model.quickSearchTerm)"/>
+
+                            <div class="auto-complete-container auto-complete-absolute-container" ng-show="quickshowResult" style="width: 280px; margin-right:40px;" >
+                                <ul class="auto-complete-results">
+                                    <li class="auto-complete-item" ng-repeat="item in quicklistResultItems track by $index" ng-click="quickItemSelected($index)">
+                                        <div><span>{{item}}</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pull-right">
+
+                        <button class="btn btn-save-add btn-warning dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar" aria-hidden="true"></i></button>
+
+                        <div class="dropdown-menu calendar-picker">
+
+                            <!--DATE PICKER--->
+                            <div class="form-group col-md-12">
+                                <label for="example-date-input" class="col-2 col-form-label">Due Date</label>
+                                <div class="col-10">
+                                    <input class="form-control" type="datetime-local" text="2011-08-19" value="2011-08-19" id="example-date-input" ng-min="today" ng-model="model.addQuickTaskDate">
+                                </div>
+                            </div>
+                            @*<div class="form-group col-md-12">
+                                <label for="example-time-input" class="col-2 col-form-label">Time</label>
+                                <div class="col-10">
+                                    <input class="form-control"  type="time"  id="example-time-input" ng-model="model.addQuickTaskDateTime">
+                                </div>
+                            </div>*@
+                            <!--/DATE PICKER--->
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Trigger the modal with a button -->
+            <!--<button type="button" class="btn btn-info btn-respo2 btn-sm" ng-show="@*{userCanCreateEdit}}*@">Add Task</button>-->
+            <!-- Modal -->
+            <!---MODAL END---->
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var Dict_Users = { "F87B2BA7-1BDF-4FE1-B1DE-06432528E0AA": "Kevin", "24507517-168A-4AA3-A841-13F062E55FB4": "Manuella", "24507517-168A-4AA3-A841-13F062E55FE1": "Armand" };
+    var today = '@today';
+</script>
+
+<!--/ END TASK COLUMN PANEL
+============================================= -->

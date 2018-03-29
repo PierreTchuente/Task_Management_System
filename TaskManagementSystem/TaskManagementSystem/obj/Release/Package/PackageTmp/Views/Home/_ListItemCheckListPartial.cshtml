@@ -1,0 +1,8 @@
+﻿<div class="checkbox" ng-cloak>
+    <label class="col-md-8">
+        <input id="checkbox1_{{key}}" type="checkbox" value=""  ng-click="updateOneCheck(key)">
+        <span style="{{check.spanForChecklist}}">{{check.check}}</span>
+    </label>
+    <span ng-click="deleteOneCheck(key)" class="glyphicon glyphicon-remove-circle col-md-4" aria-hidden="true" ng-show="check.canedit"></span>
+</div>
+<br/>

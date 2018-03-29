@@ -1,0 +1,255 @@
+﻿<!--/ COMPLETED TASK COLUMN PANEL
+============================================= -->
+@{
+//var calendarDate = ViewBag.calendarDate;
+}
+<div ng-controller="completedTaskCtr" id="completedTask" name="completedTask" ng-cloak>
+    <div class="col-md-2">
+        <div class="panel panel-default task-column">
+            <div class="panel-heading">Completed Task</div>
+            <div class="panel-body">
+                <div ng-repeat="(key, task) in Completedtasks">
+                    @{
+                        Html.RenderPartial("_ListItemCompletedTaskPartial");
+                    }
+                </div>
+
+
+                <!-- Modal -->
+                @*<div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">{{model.CompletedTitle}}</h4>
+                            </div>
+                            <div class="col-md-12 inside-box completed-task-modal">
+
+
+                                <div class="form-group">
+                                    <label class="title-content" for="form_message"><i class="fa fa-list" aria-hidden="true"></i> <span> Description</span></label>
+                                    <p>{{model.CompletedDescription}}</p>
+                                    <div class="help-block with-errors"></div>
+
+                                    <div class="col-md-12 row">
+
+                                    </div>
+
+                                </div>
+
+                                <hr />
+                                <div class="form-group">
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> Start Date: {{model.TASK_ExpectedStartDate}} </p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> Expected End Date: {{model.TASK_ExpectedEndDate}}</p>
+                                    <p><i class="fa fa-calendar" aria-hidden="true"></i> Actual End Date: {{model.TASK_ActualEndDate}}</p>
+                                </div>
+                                <div class="col-md-12 row">
+
+                                </div>
+
+
+                                <div class="col-md-12 row add-check">
+                                    <label class="title-content">
+                                        <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                        <span>
+                                            Checklist
+                                        </span>
+                                    </label>
+                                    <ul ng-repeat="(key, check) in checklist">
+                                        @{
+                                            Html.RenderPartial("_ListItemCompletedCheckListPartial");
+                                        }
+                                    </ul>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="col-md-12 row form-group">
+
+                                    <label class="title-content" for="form_description">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        <span>
+                                            Members
+                                        </span>
+                                    </label>
+
+                                    <div class="col-md-12 member-list-add task-list">
+
+                                        <ul class="">
+
+
+                                            <li ng-repeat="(key, user) in users">
+                                                <a href="#">
+                                                    <img ng-src="{{user.images}}" ng-attr-title="{{user.USERT_Name}}" class="img-responsive" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')">
+                                                </a>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!----ACTIVITIES--->
+
+
+                                <div class="row task-activity">
+
+                                    <label class="title-content" for="form_message"><i class="fa fa-align-right" aria-hidden="true"></i><span>  Activity</span></label>
+
+                                    <div ng-repeat="(key, comment) in TaskComments">
+                                        @{
+                                        Html.RenderPartial("_ListItemCompletedCommentPartial");
+                                        }
+                                    </div>
+
+
+
+                                </div>
+
+                                <!--/ACTIVITIES--->
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>*@
+
+                <!---MODAL END---->
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default task-column" >
+            <div class="panel-heading">{{model.CompletedTitle}}</div>
+            <div class="panel-body" style="padding-left:30px;">
+
+                <div class="form-group">
+                    <label class="title-content" for="form_message"><i class="fa fa-list" aria-hidden="true"></i> <span style="margin-left:3px"><b>Description: {{model.CompletedDescription}}</b> </span></label>
+                    <p></p>
+                    <div class="help-block with-errors"></div>
+
+                    <div class="col-md-12 row">
+
+                    </div>
+
+                </div>
+
+                <hr />
+                <div class="form-group">
+                    <p><i class="fa fa-calendar" aria-hidden="true" style="margin-right:3px"></i>  Start Date<b>:   {{model.TASK_ExpectedStartDate}}</b> </p>
+                    <p><i class="fa fa-calendar" aria-hidden="true" style="margin-right:3px"></i>  Expected End Date<b>:   {{model.TASK_ExpectedEndDate}}</b></p>
+                    <p><i class="fa fa-calendar" aria-hidden="true" style="margin-right:3px"></i>  Actual End Date<b>:   {{model.TASK_ActualEndDate}}</b></p>
+                </div>
+                <div class="col-md-12 row">
+
+                </div>
+
+
+                <div class="col-md-12 row add-check">
+                    <label class="title-content">
+                        <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                        <span>
+                            Checklist
+                        </span>
+                    </label>
+                    <ul ng-repeat="(key, check) in checklist">
+                        @{
+                            Html.RenderPartial("_ListItemCompletedCheckListPartial");
+                        }
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-md-12 row form-group">
+
+                    <label class="title-content" for="form_description">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span>
+                            Members
+                        </span>
+                    </label>
+
+                    <div class="col-md-12 member-list-add task-list">
+
+                        <ul class="">
+
+
+                            <li ng-repeat="(key, user) in users">
+                                <a href="#">
+                                    <img ng-src="{{user.images}}" ng-attr-title="{{user.USERT_Name}}" class="img-responsive" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')">
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!----ACTIVITIES--->
+
+
+                <div class="row task-activity">
+
+                    <label class="title-content" for="form_message"><i class="fa fa-align-right" aria-hidden="true"></i><span>  Activity</span></label>
+
+                    <div ng-repeat="(key, comment) in TaskComments">
+                        @{
+                            Html.RenderPartial("_ListItemCompletedCommentPartial");
+                        }
+                    </div>
+
+
+
+                </div>
+
+                <!--/ACTIVITIES--->
+            </div>
+         </div>
+     </div>
+</div>
+
+<script>
+
+    debugger;
+
+    @*var calendarDate = '@calendarDate';*@
+</script>
+
+        <!--/ COMPLETED TASK COLUMN PANEL
+        ============================================= -->

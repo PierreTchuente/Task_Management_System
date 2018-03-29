@@ -1,0 +1,1607 @@
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+H:\_fromKevin\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+H:\_fromKevin\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+H:\_fromKevin\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\ApplicationInsights.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csc.rsp
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\csi.rsp
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementSystem.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Owin.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\WebGrease.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\FluentScheduler.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Razor.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementSystem\obj\Debug\TaskManagementSystem.pdb

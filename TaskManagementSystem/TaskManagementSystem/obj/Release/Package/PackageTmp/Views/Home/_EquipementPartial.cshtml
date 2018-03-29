@@ -1,0 +1,236 @@
+﻿<!---EQUIPMENT COLUMN PANEL
+=============================================--->
+@*<link href="~/Content/TaskManagementCss/mine.css" rel="stylesheet" />*@
+<div class="col-lg-3 col-md-3 col-sm-6" ng-controller="createEditViewEquipmentCtr" ng-cloak>
+
+    <div class="panel panel-default task-column">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-md-4">Equipments</div>
+                <div class="col-md-5"><button type="button" class="btn btn-info btn-sm pull-right" ng-show="{{userCanCreateEdit}}" data-toggle="modal" data-target="#createEquipmentModal">Add Equip</button></div>
+                <div class="col-md-3"><button type="button" class="btn btn-info btn-sm pull-right" data-toggle="modal" data-target="#placeOrderModal">Order</button></div>
+            </div>
+            
+            @*<span data-toggle="modal" data-target="#createEquipmentModal" class="glyphicon glyphicon-plus pull-right" aria-hidden="true"></span>*@
+            @*<span ng-click="setChosenQtyAvailable(equipment.EQ_Quantity - equipment.EQ_QuantityOrdered, equipment.EQ_ID, equipment.EQ_Quantity, equipment.EQ_QuantityOrdered, equipment.EQ_Name)" data-toggle="modal" data-target="#placeOrderModal" class="pull-right due-date-sticker grey-sticker" aria-hidden="true"><b>Place Order</b></span>*@
+            
+
+        </div>
+        
+        <div class="panel-body">
+            <!-- EQUIPMENT List Partial -->
+            <div ng-repeat="(key, equipment) in Equipments">
+                @{
+                    Html.RenderPartial("_OneEquipmentPertial");
+                }
+            </div>
+            <!-- CREATE EQUIPMENT MODAL START =========================================================================-->
+            <div class="modal fade" id="createEquipmentModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <!-- Title Begin-->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Add Equipment:</h4>
+                        </div>
+                        <!-- Title End-->
+                        <!-- Content Begin-->
+                        <div class="col-md-12 inside-box">
+                            <div class="col-xs-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <!---TEXT AREAS Begin-->
+                                        <label for="form_message"><i aria-hidden="true"></i>  Name:</label>
+                                        <textarea ng-model="model.AddEqName" id="form_Name" name="message" class="form-control descrip" placeholder="Name of Equipment *" rows="1" required="required" data-error="The Equipment needs a name"></textarea>
+                                        <label for="form_message"><i aria-hidden="true"></i>  Description:</label>
+                                        <textarea ng-model="model.AddEqDescription" id="form_Description" name="message" class="form-control descrip" placeholder="Description of Equipment if any *" rows="4"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                        <!---/TEXT AREAS End-->
+
+                                        <!--Quantity Begin-->
+                                        <label class="member-list-add" for="form_message"><i aria-hidden="true"></i>  Quantity In Stock:  </label>
+                                        <div class="row">
+                                            <div class="">
+                                               <div class="col-md-10 member-list-add ">
+                                                    <input ng-model="model.AddEqQuantity" class="form-control" type="number" min="1" required="required" data-error="Please, enter the quantity for this equipment ">   
+                                                </div>
+                                        <!--/Quantity-->
+
+
+                                        <!--SAVE BUTTON-->
+                                                <div class="col-md-2">
+                                                    <input  ng-click="addEquipment()" type="submit" class="btn btn-info btn-send pull-right" value="SAVE" data-dismiss="modal">
+                                                </div>
+                                        <!--/SAVE BUTTON-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content End-->
+
+                        <div class="modal-footer">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- CREATE EQUIPMENT MODAL END---->
+
+            <!-- PLACE ORDER MODAL BEGIN---->
+            <div class="modal fade" id="placeOrderModal" role="dialog" data-eq-qty="eq_qty">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <!-- Title Begin-->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Place Order:</h4>
+                        </div>
+                        <!-- Title End-->
+                        <!-- Content Begin-->
+                        <div class="col-md-12 inside-box">
+                            <div class="col-xs-12">
+                                <div class="col-md-12">
+                                    @*<label for="form_message"><i aria-hidden="true"></i>Equipments: </label>*@
+                                    <table class="table table-hover table-striped table-bordered table-responsive">
+                                        <tr>
+                                            <th class="span2"><b>Equipment</b></th>
+                                            <th class="span2"><b>Available Qty</b></th>
+                                            <th class="span1"><b>Qty Needed</b></th>
+                                        </tr>
+                                        <tr ng-repeat="(key, equipment) in Equipments" ng-class="Orders(equipment)">
+                                            <td style="color:black">{{equipment.EQ_Name}}</td>
+                                            <td>{{equipment.EQ_Quantity - equipment.EQ_QuantityOrdered}}/{{equipment.EQ_Quantity}}</td>
+                                            <td><input class="form-control" type="number"  required="required" data-error="Quantity in to be ordered please..." placeholder="0" value="0"  ng-model="model[equipment.EQ_ID]" ng-blur="validatequantityordered(equipment.EQ_Quantity - equipment.EQ_QuantityOrdered,equipment.EQ_ID)"/></td>
+                                            
+                                        </tr>
+                                    </table>
+                                    <input ng-click="placeOrder(equipment)" type="submit" class="btn btn-info pull-right" value="SAVE ORDER(S)" data-dismiss="modal">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content End-->
+
+                        <div class="modal-footer">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- PLACE ORDER MODAL END---->
+
+            <!-- EQUIPMENT DETAILS MODAL START-->
+            <div class="modal fade" id="equipmentDetailsModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <!-- Title Begin-->
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Equipment Details:</h4>
+                        </div>
+                        <!-- Title End-->
+                        <!-- Content Begin-->
+                        <div class="col-md-12 inside-box">
+                            <div class="col-xs-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message"><i aria-hidden="true"></i>Equipment: {{EQName}}</label> 
+                                        <ul class="comment list-unstyled">
+                                            <li class="comment">
+                                                <!-- Equipment Details body -->
+                                                <label for="form_message"><i aria-hidden="true"></i>Quantity Avalable for order: </label> {{chosenQtyAvail}}
+                                                <br />
+                                                <label for="form_message"><i aria-hidden="true"></i>Total Quantity: </label> {{quantity}}
+                                                <br />
+                                                <label for="form_message"><i aria-hidden="true"></i>Quantity Ordered (Out): </label> {{quantityOrdered}}
+                                            </li>
+                                         </ul>
+                                        <label for="form_message"><i aria-hidden="true"></i>Daily Activity: </label> 
+                                        <table class="table table-hover table-striped table-bordered table-responsive">
+                                             <tr>
+                                                 <th class="span1"></th>
+                                                 <th class="span2"><b>User</b></th>
+                                                 <th class="span2"><b>Qty</b></th>
+                                                 <th class="span1"><b>Time Out</b></th>
+                                                 <th class="span4"><b>Time Returned</b></th>
+                                                 <th class="span2"><b>Status</b></th>
+                                                
+                                             </tr>
+                                             <tr ng-repeat="order in ordersOfTheEquipment">
+                                                 <td>{{ $index + 1 }}</td>
+                                                 <td>{{ order.Username }}</td>
+                                                 <td>{{ order.OE_QuantityOrdered }}</td>
+                                                 <td>{{ order.OE_Out_Time }}</td>
+                                                 <td>{{ order.OE_Return_Time }}</td>
+                                                 @*<td><div class="checkbox">
+                                                        <label><input type="checkbox" value="">Return?</label>
+                                                    </div></td>*@
+                                                 <td>
+                                                    <div class="dropdown">
+                                                        <button ng-disabled="disableDropdown(order.STATUST_ID) " class="btn btn-default dropdown-toggle  {{getStatusColor(order.STATUST_ID)}}" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                                           {{order.STATUST_Desc}}
+                                                            <span class="caret"></span>
+                                                        </button>
+
+                                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                            <li ng-repeat="status in statusT">
+                                                                <a ng-click="changeStatus(chosenEquip, status.ID, order.OE_ID, order.OE_QuantityOrdered, status.Text, order.USERT_ID)" href="#">{{status.Text}}</a>
+                                                             </li>
+                                                            @*<li><a href="#">Another action</a></li>
+                                                            <li><a href="#">Something else here</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                                            <li><a href="#">Separated link</a></li>*@
+                                                        </ul>
+                                                    </div>
+                                                 </td>
+                                             </tr>
+
+                                        </table>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Content End-->
+
+                        <div class="modal-footer">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- EQUIPMENT DETAILS MODAL END---->
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        
+    </div>
+</div>
+
+<!---END EQUIPMENT COLUMN PANEL
+=============================================--->
+

@@ -1,0 +1,18 @@
+﻿<div id="ItemDivID_{{key}}" class="panel panel-default squarepanel" ng-cloak>
+    <div class="panel-body res-box"  ng-click="DepartmentResponsibilityDetails(department.DEPT_ID)">
+       
+        @*<div class="col-md-12 row">
+           
+            <i class="fa fa-comments-o" aria-hidden="true"></i> 1
+        </div>*@
+        <div class="row" ng-click="setDeptID(department.DEPT_ID)">
+            <div class="col-sm-12" >
+                <span class="res-title">
+                   <b>    {{department.DEPT_Desc}}</b>
+                </span>
+                <i class="fa fa-user" aria-hidden="true">   </i>  Manager:    {{department.USERT_Username}} 
+            </div>
+
+        </div>
+     </div>
+</div>

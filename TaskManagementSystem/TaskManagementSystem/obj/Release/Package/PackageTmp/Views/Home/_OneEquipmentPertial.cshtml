@@ -1,0 +1,25 @@
+﻿<div id="ItemDivID_{{key}}" ng-cloak>
+    <div class="panel panel-default panel-body res-box alert-note  squarepanel {{equipment.color}}" ng-click="equipmentOrderDetails(equipment.EQ_ID, equipment.EQ_Quantity - equipment.EQ_QuantityOrdered, equipment.EQ_ID, equipment.EQ_Quantity, equipment.EQ_QuantityOrdered, equipment.EQ_Name)" data-toggle="modal" data-target="#equipmentDetailsModal">
+
+        @*<div class="col-md-12 row">
+
+                <i class="fa fa-comments-o" aria-hidden="true"></i> 1
+            </div>*@
+        <div class="row">
+            <div class="col-sm-12">
+                <b>{{equipment.EQ_Name}}</b>
+            </div>
+            @*<div class="col-sm-6">
+                <span ng-click="setChosenQtyAvailable(equipment.EQ_Quantity - equipment.EQ_QuantityOrdered, equipment.EQ_ID, equipment.EQ_Quantity, equipment.EQ_QuantityOrdered, equipment.EQ_Name)" data-toggle="modal" data-target="#placeOrderModal" class="pull-right due-date-sticker grey-sticker" aria-hidden="true"><b>Place Order</b></span>
+            </div>*@
+        </div>
+
+        <div class="col-md-12 row">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>  Quantity Available: 
+            <span>
+                {{equipment.EQ_Quantity - equipment.EQ_QuantityOrdered}}/{{equipment.EQ_Quantity}}
+            </span>
+        </div>
+
+    </div>
+</div>

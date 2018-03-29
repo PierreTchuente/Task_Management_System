@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TaskManagementDBModelStoreContainer" CdmEntityContainer="TaskManagementDBEntities">
+    <FunctionImportMapping FunctionImportName="AssignTaskUserSP" FunctionName="TaskManagementDBModel.Store.AssignTaskUserSP" />
+    <FunctionImportMapping FunctionImportName="DeactivateActivateUserTSP" FunctionName="TaskManagementDBModel.Store.DeactivateActivateUserTSP" />
+    <FunctionImportMapping FunctionImportName="DeActivateProjectTSP" FunctionName="TaskManagementDBModel.Store.DeActivateProjectTSP" />
+    <FunctionImportMapping FunctionImportName="DeleteChecklistSP" FunctionName="TaskManagementDBModel.Store.DeleteChecklistSP" />
+    <FunctionImportMapping FunctionImportName="GetChecklistsPerTaskSP" FunctionName="TaskManagementDBModel.Store.GetChecklistsPerTaskSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetChecklistsPerTaskSP_Result">
+          <ScalarProperty Name="CHECKLIST_ID" ColumnName="CHECKLIST_ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="CHECKLIST_Description" ColumnName="CHECKLIST_Description" />
+          <ScalarProperty Name="CHECKLIST_IsCompleted" ColumnName="CHECKLIST_IsCompleted" />
+          <ScalarProperty Name="CHECKLIST_Weight" ColumnName="CHECKLIST_Weight" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetGendesrSP" FunctionName="TaskManagementDBModel.Store.GetGendesrSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetGendesrSP_Result">
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="GENDER_Desc" ColumnName="GENDER_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetLevelsSP" FunctionName="TaskManagementDBModel.Store.GetLevelsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetLevelsSP_Result">
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="LEVELT_Desc" ColumnName="LEVELT_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProjectDetailsSP" FunctionName="TaskManagementDBModel.Store.GetProjectDetailsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetProjectDetailsSP_Result">
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="PROJECT_Name" ColumnName="PROJECT_Name" />
+          <ScalarProperty Name="PROJECT_Desc" ColumnName="PROJECT_Desc" />
+          <ScalarProperty Name="PROJECT_IsActive" ColumnName="PROJECT_IsActive" />
+          <ScalarProperty Name="PROJECT_Creator" ColumnName="PROJECT_Creator" />
+          <ScalarProperty Name="PROJECT_ExpectedStartDate" ColumnName="PROJECT_ExpectedStartDate" />
+          <ScalarProperty Name="PROJECT_ExpectedEndDate" ColumnName="PROJECT_ExpectedEndDate" />
+          <ScalarProperty Name="PROJECT_ActualStartDate" ColumnName="PROJECT_ActualStartDate" />
+          <ScalarProperty Name="PROJECT_ActualEndDate" ColumnName="PROJECT_ActualEndDate" />
+          <ScalarProperty Name="PROJECT_IsPrivate" ColumnName="PROJECT_IsPrivate" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_ProjectID" ColumnName="TASK_ProjectID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_Desc" ColumnName="TASK_Desc" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_ActualStartDate" ColumnName="TASK_ActualStartDate" />
+          <ScalarProperty Name="TASK_ActualEndDate" ColumnName="TASK_ActualEndDate" />
+          <ScalarProperty Name="TASK_IsPrivate" ColumnName="TASK_IsPrivate" />
+          <ScalarProperty Name="TASK_FolderPath" ColumnName="TASK_FolderPath" />
+          <ScalarProperty Name="TASK_Weight" ColumnName="TASK_Weight" />
+          <ScalarProperty Name="TASK_PriorityLevel" ColumnName="TASK_PriorityLevel" />
+          <ScalarProperty Name="TASK_Creator" ColumnName="TASK_Creator" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_Status" ColumnName="TASK_Status" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_IsCompleted" ColumnName="TASK_IsCompleted" />
+          <ScalarProperty Name="TASK_IsRepeated" ColumnName="TASK_IsRepeated" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_RepeatInterval" ColumnName="TASK_RepeatInterval" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProjectsListPerCreatorSP" FunctionName="TaskManagementDBModel.Store.GetProjectsListPerCreatorSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetProjectsListPerCreatorSP_Result">
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="PROJECT_Name" ColumnName="PROJECT_Name" />
+          <ScalarProperty Name="PROJECT_Desc" ColumnName="PROJECT_Desc" />
+          <ScalarProperty Name="PROJECT_IsActive" ColumnName="PROJECT_IsActive" />
+          <ScalarProperty Name="PROJECT_Creator" ColumnName="PROJECT_Creator" />
+          <ScalarProperty Name="PROJECT_ExpectedStartDate" ColumnName="PROJECT_ExpectedStartDate" />
+          <ScalarProperty Name="PROJECT_ExpectedEndDate" ColumnName="PROJECT_ExpectedEndDate" />
+          <ScalarProperty Name="PROJECT_ActualStartDate" ColumnName="PROJECT_ActualStartDate" />
+          <ScalarProperty Name="PROJECT_ActualEndDate" ColumnName="PROJECT_ActualEndDate" />
+          <ScalarProperty Name="PROJECT_IsPrivate" ColumnName="PROJECT_IsPrivate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetProjectsListSP" FunctionName="TaskManagementDBModel.Store.GetProjectsListSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetProjectsListSP_Result">
+          <ScalarProperty Name="PROJECT_ID" ColumnName="PROJECT_ID" />
+          <ScalarProperty Name="PROJECT_Name" ColumnName="PROJECT_Name" />
+          <ScalarProperty Name="PROJECT_Desc" ColumnName="PROJECT_Desc" />
+          <ScalarProperty Name="PROJECT_IsActive" ColumnName="PROJECT_IsActive" />
+          <ScalarProperty Name="PROJECT_Creator" ColumnName="PROJECT_Creator" />
+          <ScalarProperty Name="PROJECT_ExpectedStartDate" ColumnName="PROJECT_ExpectedStartDate" />
+          <ScalarProperty Name="PROJECT_ExpectedEndDate" ColumnName="PROJECT_ExpectedEndDate" />
+          <ScalarProperty Name="PROJECT_ActualStartDate" ColumnName="PROJECT_ActualStartDate" />
+          <ScalarProperty Name="PROJECT_ActualEndDate" ColumnName="PROJECT_ActualEndDate" />
+          <ScalarProperty Name="PROJECT_IsPrivate" ColumnName="PROJECT_IsPrivate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRepeatIntervalsSP" FunctionName="TaskManagementDBModel.Store.GetRepeatIntervalsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetRepeatIntervalsSP_Result">
+          <ScalarProperty Name="RI_ID" ColumnName="RI_ID" />
+          <ScalarProperty Name="RI_Desc" ColumnName="RI_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetStatussSP" FunctionName="TaskManagementDBModel.Store.GetStatussSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetStatussSP_Result">
+          <ScalarProperty Name="STATUST_ID" ColumnName="STATUST_ID" />
+          <ScalarProperty Name="STATUST_Desc" ColumnName="STATUST_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTasksPerDayPerUserSP" FunctionName="TaskManagementDBModel.Store.GetTasksPerDayPerUserSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTasksPerDayPerUserSP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUserTSP" FunctionName="TaskManagementDBModel.Store.GetUserTSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetUserTSP_Result">
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="USERT_Desc" ColumnName="USERT_Desc" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_HashPassword" ColumnName="USERT_HashPassword" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Registered_Time" ColumnName="USERT_Registered_Time" />
+          <ScalarProperty Name="USERT_OnlineStatus" ColumnName="USERT_OnlineStatus" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="USERT_DOB" ColumnName="USERT_DOB" />
+          <ScalarProperty Name="USERT_Address" ColumnName="USERT_Address" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_MemberStatus" ColumnName="USERT_MemberStatus" />
+          <ScalarProperty Name="USERT_IsActive" ColumnName="USERT_IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUserTsSP" FunctionName="TaskManagementDBModel.Store.GetUserTsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetUserTsSP_Result">
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="USERT_Desc" ColumnName="USERT_Desc" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_HashPassword" ColumnName="USERT_HashPassword" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Registered_Time" ColumnName="USERT_Registered_Time" />
+          <ScalarProperty Name="USERT_OnlineStatus" ColumnName="USERT_OnlineStatus" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="USERT_DOB" ColumnName="USERT_DOB" />
+          <ScalarProperty Name="USERT_Address" ColumnName="USERT_Address" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_MemberStatus" ColumnName="USERT_MemberStatus" />
+          <ScalarProperty Name="USERT_IsActive" ColumnName="USERT_IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UnassignTaskToUserSP" FunctionName="TaskManagementDBModel.Store.UnassignTaskToUserSP" />
+    <FunctionImportMapping FunctionImportName="UpdateChecklistSP" FunctionName="TaskManagementDBModel.Store.UpdateChecklistSP" />
+    <FunctionImportMapping FunctionImportName="UpdateProjectSP" FunctionName="TaskManagementDBModel.Store.UpdateProjectSP" />
+    <FunctionImportMapping FunctionImportName="UpdateResponsibilitySP" FunctionName="TaskManagementDBModel.Store.UpdateResponsibilitySP" />
+    <FunctionImportMapping FunctionImportName="UpdateTaskSP" FunctionName="TaskManagementDBModel.Store.UpdateTaskSP" />
+    <FunctionImportMapping FunctionImportName="CreateUserTSP" FunctionName="TaskManagementDBModel.Store.CreateUserTSP" />
+    <FunctionImportMapping FunctionImportName="UpdateUserTSP" FunctionName="TaskManagementDBModel.Store.UpdateUserTSP" />
+    <FunctionImportMapping FunctionImportName="CreateChecklistSP" FunctionName="TaskManagementDBModel.Store.CreateChecklistSP" />
+    <FunctionImportMapping FunctionImportName="CreateCommentSP" FunctionName="TaskManagementDBModel.Store.CreateCommentSP" />
+    <FunctionImportMapping FunctionImportName="CreateProjectSP" FunctionName="TaskManagementDBModel.Store.CreateProjectSP" />
+    <FunctionImportMapping FunctionImportName="CreateTaskSP" FunctionName="TaskManagementDBModel.Store.CreateTaskSP" />
+    <FunctionImportMapping FunctionImportName="ListOfTasksAssignedToUserID" FunctionName="TaskManagementDBModel.Store.ListOfTasksAssignedToUserID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.ListOfTasksAssignedToUserID_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_Desc" ColumnName="TASK_Desc" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_Weight" ColumnName="TASK_Weight" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ListOfUsersAssignedToTaskIDSP" FunctionName="TaskManagementDBModel.Store.ListOfUsersAssignedToTaskIDSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.ListOfUsersAssignedToTaskIDSP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTaskSP" FunctionName="TaskManagementDBModel.Store.GetTaskSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTaskSP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_ProjectID" ColumnName="TASK_ProjectID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_Desc" ColumnName="TASK_Desc" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_ActualStartDate" ColumnName="TASK_ActualStartDate" />
+          <ScalarProperty Name="TASK_ActualEndDate" ColumnName="TASK_ActualEndDate" />
+          <ScalarProperty Name="TASK_IsPrivate" ColumnName="TASK_IsPrivate" />
+          <ScalarProperty Name="TASK_FolderPath" ColumnName="TASK_FolderPath" />
+          <ScalarProperty Name="TASK_Weight" ColumnName="TASK_Weight" />
+          <ScalarProperty Name="TASK_PriorityLevel" ColumnName="TASK_PriorityLevel" />
+          <ScalarProperty Name="TASK_Creator" ColumnName="TASK_Creator" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_Status" ColumnName="TASK_Status" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_IsCompleted" ColumnName="TASK_IsCompleted" />
+          <ScalarProperty Name="TASK_IsRepeated" ColumnName="TASK_IsRepeated" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_RepeatInterval" ColumnName="TASK_RepeatInterval" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteTaskUsersSP" FunctionName="TaskManagementDBModel.Store.DeleteTaskUsersSP" />
+    <FunctionImportMapping FunctionImportName="RemoveResponsibilitySP" FunctionName="TaskManagementDBModel.Store.RemoveResponsibilitySP" />
+    <FunctionImportMapping FunctionImportName="GetCommentsPerTaskSP" FunctionName="TaskManagementDBModel.Store.GetCommentsPerTaskSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetCommentsPerTaskSP_Result">
+          <ScalarProperty Name="COMMENT_ID" ColumnName="COMMENT_ID" />
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="COMMENT_Description" ColumnName="COMMENT_Description" />
+          <ScalarProperty Name="COMMENT_DatePosted" ColumnName="COMMENT_DatePosted" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeleteOrderEquipmentSP" FunctionName="TaskManagementDBModel.Store.DeleteOrderEquipmentSP" />
+    <FunctionImportMapping FunctionImportName="ReturnOrderSP" FunctionName="TaskManagementDBModel.Store.ReturnOrderSP" />
+    <FunctionImportMapping FunctionImportName="UpdateEquipmentSP" FunctionName="TaskManagementDBModel.Store.UpdateEquipmentSP" />
+    <FunctionImportMapping FunctionImportName="GetCompletedTasksPerDaySP" FunctionName="TaskManagementDBModel.Store.GetCompletedTasksPerDaySP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetCompletedTasksPerDaySP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TASK_ActualEndDate" ColumnName="TASK_ActualEndDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetChecklistsWeightPerTaskSP" FunctionName="TaskManagementDBModel.Store.GetChecklistsWeightPerTaskSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetChecklistsWeightPerTaskSP_Result">
+          <ScalarProperty Name="CHECKLIST_IsCompleted" ColumnName="CHECKLIST_IsCompleted" />
+          <ScalarProperty Name="CHECKLIST_Weight" ColumnName="CHECKLIST_Weight" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTasksPerDaySPTable" FunctionName="TaskManagementDBModel.Store.GetTasksPerDaySPTable" />
+    <FunctionImportMapping FunctionImportName="GetTasksPerDaySP" FunctionName="TaskManagementDBModel.Store.GetTasksPerDaySP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTasksPerDaySP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TotWeight" ColumnName="TotWeight" />
+          <ScalarProperty Name="TotWeightNotCompleted" ColumnName="TotWeightNotCompleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTaskUsersSP" FunctionName="TaskManagementDBModel.Store.GetTaskUsersSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTaskUsersSP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DeactivateFistimeLogIn" FunctionName="TaskManagementDBModel.Store.DeactivateFistimeLogIn" />
+    <FunctionImportMapping FunctionImportName="LogUserSP" FunctionName="TaskManagementDBModel.Store.LogUserSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.LogUserSP_Result">
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="USERT_Desc" ColumnName="USERT_Desc" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_HashPassword" ColumnName="USERT_HashPassword" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Registered_Time" ColumnName="USERT_Registered_Time" />
+          <ScalarProperty Name="USERT_OnlineStatus" ColumnName="USERT_OnlineStatus" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="USERT_DOB" ColumnName="USERT_DOB" />
+          <ScalarProperty Name="USERT_Address" ColumnName="USERT_Address" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_MemberStatus" ColumnName="USERT_MemberStatus" />
+          <ScalarProperty Name="USERT_IsActive" ColumnName="USERT_IsActive" />
+          <ScalarProperty Name="isFirstTimeLogin" ColumnName="isFirstTimeLogin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UerFullTextSearch" FunctionName="TaskManagementDBModel.Store.UerFullTextSearch">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.UerFullTextSearch_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+          <ScalarProperty Name="User_UserName" ColumnName="User_UserName" />
+          <ScalarProperty Name="User_LevelID" ColumnName="User_LevelID" />
+          <ScalarProperty Name="User_Email" ColumnName="User_Email" />
+          <ScalarProperty Name="User_PictureName" ColumnName="User_PictureName" />
+          <ScalarProperty Name="User_RegistrationDate" ColumnName="User_RegistrationDate" />
+          <ScalarProperty Name="User_PhoneNumber" ColumnName="User_PhoneNumber" />
+          <ScalarProperty Name="User_GenderID" ColumnName="User_GenderID" />
+          <ScalarProperty Name="User_DOB" ColumnName="User_DOB" />
+          <ScalarProperty Name="User_Address" ColumnName="User_Address" />
+          <ScalarProperty Name="User_DepartmentID" ColumnName="User_DepartmentID" />
+          <ScalarProperty Name="User_IsActive" ColumnName="User_IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="AddMemberToDepartmentResponsibilitiesSP" FunctionName="TaskManagementDBModel.Store.AddMemberToDepartmentResponsibilitiesSP" />
+    <FunctionImportMapping FunctionImportName="CreateResponsibilitySP" FunctionName="TaskManagementDBModel.Store.CreateResponsibilitySP" />
+    <FunctionImportMapping FunctionImportName="GetDepartmentSP" FunctionName="TaskManagementDBModel.Store.GetDepartmentSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetDepartmentSP_Result">
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="DEPT_Desc" ColumnName="DEPT_Desc" />
+          <ScalarProperty Name="Dept_HOD" ColumnName="Dept_HOD" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetDepartmentsSP" FunctionName="TaskManagementDBModel.Store.GetDepartmentsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetDepartmentsSP_Result">
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="DEPT_Desc" ColumnName="DEPT_Desc" />
+          <ScalarProperty Name="Dept_HOD" ColumnName="Dept_HOD" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetOtherMembersInDeptRespSP" FunctionName="TaskManagementDBModel.Store.GetOtherMembersInDeptRespSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetOtherMembersInDeptRespSP_Result">
+          <ScalarProperty Name="DRU_ID" ColumnName="DRU_ID" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetResponsibilitiesPerDeptSP" FunctionName="TaskManagementDBModel.Store.GetResponsibilitiesPerDeptSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetResponsibilitiesPerDeptSP_Result">
+          <ScalarProperty Name="RESPONSIBILITY_ID" ColumnName="RESPONSIBILITY_ID" />
+          <ScalarProperty Name="RESPONSIBILITY_Title" ColumnName="RESPONSIBILITY_Title" />
+          <ScalarProperty Name="RESPONSIBILITY_Desc" ColumnName="RESPONSIBILITY_Desc" />
+          <ScalarProperty Name="RESPONSIBILITY_IsActive" ColumnName="RESPONSIBILITY_IsActive" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetResponsibilitiesSP" FunctionName="TaskManagementDBModel.Store.GetResponsibilitiesSP" />
+    <FunctionImportMapping FunctionImportName="RemoveMemberFromDepartmentResponsibilitiesSP" FunctionName="TaskManagementDBModel.Store.RemoveMemberFromDepartmentResponsibilitiesSP" />
+    <FunctionImportMapping FunctionImportName="GetNotificationType" FunctionName="TaskManagementDBModel.Store.GetNotificationType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetNotificationType_Result">
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateIsCompletedTaskSP" FunctionName="TaskManagementDBModel.Store.UpdateIsCompletedTaskSP" />
+    <FunctionImportMapping FunctionImportName="ApproveEquipmentsSP" FunctionName="TaskManagementDBModel.Store.ApproveEquipmentsSP" />
+    <FunctionImportMapping FunctionImportName="CreateEquipmentSP" FunctionName="TaskManagementDBModel.Store.CreateEquipmentSP" />
+    <FunctionImportMapping FunctionImportName="GetEquipmentsSP" FunctionName="TaskManagementDBModel.Store.GetEquipmentsSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetEquipmentsSP_Result">
+          <ScalarProperty Name="EQ_ID" ColumnName="EQ_ID" />
+          <ScalarProperty Name="EQ_Name" ColumnName="EQ_Name" />
+          <ScalarProperty Name="EQ_Desc" ColumnName="EQ_Desc" />
+          <ScalarProperty Name="EQ_Quantity" ColumnName="EQ_Quantity" />
+          <ScalarProperty Name="EQ_QuantityOrdered" ColumnName="EQ_QuantityOrdered" />
+          <ScalarProperty Name="EQ_IsActive" ColumnName="EQ_IsActive" />
+          <ScalarProperty Name="EQ_IsApproved" ColumnName="EQ_IsApproved" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CreateNotification" FunctionName="TaskManagementDBModel.Store.CreateNotification" />
+    <FunctionImportMapping FunctionImportName="DeleteUserNotifications" FunctionName="TaskManagementDBModel.Store.DeleteUserNotifications" />
+    <FunctionImportMapping FunctionImportName="CreateUserNotification" FunctionName="TaskManagementDBModel.Store.CreateUserNotification" />
+    <FunctionImportMapping FunctionImportName="GetListOfTodayNotification" FunctionName="TaskManagementDBModel.Store.GetListOfTodayNotification">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetListOfTodayNotification_Result">
+          <ScalarProperty Name="notificationDateTime" ColumnName="notificationDateTime" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="priorityID" ColumnName="priorityID" />
+          <ScalarProperty Name="groupID" ColumnName="groupID" />
+          <ScalarProperty Name="notiID" ColumnName="notiID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUserNotifications" FunctionName="TaskManagementDBModel.Store.GetUserNotifications">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetUserNotifications_Result">
+          <ScalarProperty Name="notificationDateTime" ColumnName="notificationDateTime" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="notiID" ColumnName="notiID" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateEquipmentStatusSP" FunctionName="TaskManagementDBModel.Store.UpdateEquipmentStatusSP" />
+    <FunctionImportMapping FunctionImportName="CreateOrderEquipmentSP" FunctionName="TaskManagementDBModel.Store.CreateOrderEquipmentSP" />
+    <FunctionImportMapping FunctionImportName="GetOrderShoppingCartSP" FunctionName="TaskManagementDBModel.Store.GetOrderShoppingCartSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetOrderShoppingCartSP_Result">
+          <ScalarProperty Name="OE_ID" ColumnName="OE_ID" />
+          <ScalarProperty Name="OE_QuantityOrdered" ColumnName="OE_QuantityOrdered" />
+          <ScalarProperty Name="OE_Comment" ColumnName="OE_Comment" />
+          <ScalarProperty Name="OE_DateOrdered" ColumnName="OE_DateOrdered" />
+          <ScalarProperty Name="STATUST_ID" ColumnName="STATUST_ID" />
+          <ScalarProperty Name="OE_Return_Time" ColumnName="OE_Return_Time" />
+          <ScalarProperty Name="OE_Out_Time" ColumnName="OE_Out_Time" />
+          <ScalarProperty Name="STATUST_Desc" ColumnName="STATUST_Desc" />
+          <ScalarProperty Name="EQ_Name" ColumnName="EQ_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllPreviousTasksPerCalendarDaySP" FunctionName="TaskManagementDBModel.Store.GetAllPreviousTasksPerCalendarDaySP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetAllPreviousTasksPerCalendarDaySP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TotWeight" ColumnName="TotWeight" />
+          <ScalarProperty Name="TotWeightNotCompleted" ColumnName="TotWeightNotCompleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCompletedCalendarTasksPerDaySP" FunctionName="TaskManagementDBModel.Store.GetCompletedCalendarTasksPerDaySP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetCompletedCalendarTasksPerDaySP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TASK_ActualEndDate" ColumnName="TASK_ActualEndDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTasksPerCalendarDayPerUserSP" FunctionName="TaskManagementDBModel.Store.GetTasksPerCalendarDayPerUserSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTasksPerCalendarDayPerUserSP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TotWeight" ColumnName="TotWeight" />
+          <ScalarProperty Name="TotWeightNotCompleted" ColumnName="TotWeightNotCompleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTasksPerCalendarDaySP" FunctionName="TaskManagementDBModel.Store.GetTasksPerCalendarDaySP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTasksPerCalendarDaySP_Result">
+          <ScalarProperty Name="TASK_ID" ColumnName="TASK_ID" />
+          <ScalarProperty Name="TASK_Name" ColumnName="TASK_Name" />
+          <ScalarProperty Name="TASK_ExpectedEndDate" ColumnName="TASK_ExpectedEndDate" />
+          <ScalarProperty Name="TASK_NumberOfComments" ColumnName="TASK_NumberOfComments" />
+          <ScalarProperty Name="TASK_CheckListCompletedNo" ColumnName="TASK_CheckListCompletedNo" />
+          <ScalarProperty Name="TASK_CheckListNo" ColumnName="TASK_CheckListNo" />
+          <ScalarProperty Name="TASK_NumberOfUsersAssigned" ColumnName="TASK_NumberOfUsersAssigned" />
+          <ScalarProperty Name="TASK_ExpectedStartDate" ColumnName="TASK_ExpectedStartDate" />
+          <ScalarProperty Name="TotWeight" ColumnName="TotWeight" />
+          <ScalarProperty Name="TotWeightNotCompleted" ColumnName="TotWeightNotCompleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetOrdersPerEquipmentSP" FunctionName="TaskManagementDBModel.Store.GetOrdersPerEquipmentSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetOrdersPerEquipmentSP_Result">
+          <ScalarProperty Name="OE_ID" ColumnName="OE_ID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="OE_QuantityOrdered" ColumnName="OE_QuantityOrdered" />
+          <ScalarProperty Name="OE_Comment" ColumnName="OE_Comment" />
+          <ScalarProperty Name="OE_DateOrdered" ColumnName="OE_DateOrdered" />
+          <ScalarProperty Name="STATUST_ID" ColumnName="STATUST_ID" />
+          <ScalarProperty Name="OE_Return_Time" ColumnName="OE_Return_Time" />
+          <ScalarProperty Name="OE_Out_Time" ColumnName="OE_Out_Time" />
+          <ScalarProperty Name="STATUST_Desc" ColumnName="STATUST_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CreateAlert" FunctionName="TaskManagementDBModel.Store.CreateAlert" />
+    <FunctionImportMapping FunctionImportName="GetTodayAlert" FunctionName="TaskManagementDBModel.Store.GetTodayAlert">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTodayAlert_Result">
+          <ScalarProperty Name="alertID" ColumnName="alertID" />
+          <ScalarProperty Name="alertCreatedByID" ColumnName="alertCreatedByID" />
+          <ScalarProperty Name="alertDescription" ColumnName="alertDescription" />
+          <ScalarProperty Name="alertDateTime" ColumnName="alertDateTime" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CreateDepartmentSP" FunctionName="TaskManagementDBModel.Store.CreateDepartmentSP" />
+    <FunctionImportMapping FunctionImportName="DeleteDepartmentSP" FunctionName="TaskManagementDBModel.Store.DeleteDepartmentSP" />
+    <FunctionImportMapping FunctionImportName="GetCurrentDepartmentHODSP" FunctionName="TaskManagementDBModel.Store.GetCurrentDepartmentHODSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetCurrentDepartmentHODSP_Result">
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="DEPT_Desc" ColumnName="DEPT_Desc" />
+          <ScalarProperty Name="Dept_HOD" ColumnName="Dept_HOD" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdatDepartmentSP" FunctionName="TaskManagementDBModel.Store.UpdatDepartmentSP" />
+    <FunctionImportMapping FunctionImportName="GetTodaysOrdersSP" FunctionName="TaskManagementDBModel.Store.GetTodaysOrdersSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetTodaysOrdersSP_Result">
+          <ScalarProperty Name="OE_ID" ColumnName="OE_ID" />
+          <ScalarProperty Name="EQ_ID" ColumnName="EQ_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="OE_QuantityOrdered" ColumnName="OE_QuantityOrdered" />
+          <ScalarProperty Name="OE_DateOrdered" ColumnName="OE_DateOrdered" />
+          <ScalarProperty Name="OE_IsReturned" ColumnName="OE_IsReturned" />
+          <ScalarProperty Name="OE_Comment" ColumnName="OE_Comment" />
+          <ScalarProperty Name="OE_IsDeleted" ColumnName="OE_IsDeleted" />
+          <ScalarProperty Name="STATUST_ID" ColumnName="STATUST_ID" />
+          <ScalarProperty Name="OE_Return_Time" ColumnName="OE_Return_Time" />
+          <ScalarProperty Name="OE_Out_Time" ColumnName="OE_Out_Time" />
+          <ScalarProperty Name="STATUST_Desc" ColumnName="STATUST_Desc" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="EQ_Name" ColumnName="EQ_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUserDetails" FunctionName="TaskManagementDBModel.Store.GetUserDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.GetUserDetails_Result">
+          <ScalarProperty Name="GENDER_Desc" ColumnName="GENDER_Desc" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="LEVELT_Desc" ColumnName="LEVELT_Desc" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Registered_Time" ColumnName="USERT_Registered_Time" />
+          <ScalarProperty Name="USERT_OnlineStatus" ColumnName="USERT_OnlineStatus" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="USERT_DOB" ColumnName="USERT_DOB" />
+          <ScalarProperty Name="USERT_Address" ColumnName="USERT_Address" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_MemberStatus" ColumnName="USERT_MemberStatus" />
+          <ScalarProperty Name="USERT_IsActive" ColumnName="USERT_IsActive" />
+          <ScalarProperty Name="DEPT_Desc" ColumnName="DEPT_Desc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ChangeUserPictName" FunctionName="TaskManagementDBModel.Store.ChangeUserPictName" />
+    <FunctionImportMapping FunctionImportName="OrdersNotReturnedSP" FunctionName="TaskManagementDBModel.Store.OrdersNotReturnedSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.OrdersNotReturnedSP_Result">
+          <ScalarProperty Name="OE_ID" ColumnName="OE_ID" />
+          <ScalarProperty Name="EQ_ID" ColumnName="EQ_ID" />
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="OE_QuantityOrdered" ColumnName="OE_QuantityOrdered" />
+          <ScalarProperty Name="OE_DateOrdered" ColumnName="OE_DateOrdered" />
+          <ScalarProperty Name="OE_IsReturned" ColumnName="OE_IsReturned" />
+          <ScalarProperty Name="OE_Comment" ColumnName="OE_Comment" />
+          <ScalarProperty Name="OE_IsDeleted" ColumnName="OE_IsDeleted" />
+          <ScalarProperty Name="STATUST_ID" ColumnName="STATUST_ID" />
+          <ScalarProperty Name="OE_Return_Time" ColumnName="OE_Return_Time" />
+          <ScalarProperty Name="OE_Out_Time" ColumnName="OE_Out_Time" />
+          <ScalarProperty Name="STATUST_Desc" ColumnName="STATUST_Desc" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="EQ_Name" ColumnName="EQ_Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UpdateRoleSP" FunctionName="TaskManagementDBModel.Store.UpdateRoleSP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TaskManagementDBModel.UpdateRoleSP_Result">
+          <ScalarProperty Name="USERT_ID" ColumnName="USERT_ID" />
+          <ScalarProperty Name="USERT_Name" ColumnName="USERT_Name" />
+          <ScalarProperty Name="USERT_Username" ColumnName="USERT_Username" />
+          <ScalarProperty Name="LEVELT_ID" ColumnName="LEVELT_ID" />
+          <ScalarProperty Name="USERT_Desc" ColumnName="USERT_Desc" />
+          <ScalarProperty Name="USERT_Email" ColumnName="USERT_Email" />
+          <ScalarProperty Name="USERT_HashPassword" ColumnName="USERT_HashPassword" />
+          <ScalarProperty Name="USERT_PhotoLink" ColumnName="USERT_PhotoLink" />
+          <ScalarProperty Name="USERT_Registered_Time" ColumnName="USERT_Registered_Time" />
+          <ScalarProperty Name="USERT_OnlineStatus" ColumnName="USERT_OnlineStatus" />
+          <ScalarProperty Name="USERT_PhoneNumber" ColumnName="USERT_PhoneNumber" />
+          <ScalarProperty Name="GENDER_ID" ColumnName="GENDER_ID" />
+          <ScalarProperty Name="USERT_DOB" ColumnName="USERT_DOB" />
+          <ScalarProperty Name="USERT_Address" ColumnName="USERT_Address" />
+          <ScalarProperty Name="DEPT_ID" ColumnName="DEPT_ID" />
+          <ScalarProperty Name="USERT_MemberStatus" ColumnName="USERT_MemberStatus" />
+          <ScalarProperty Name="USERT_IsActive" ColumnName="USERT_IsActive" />
+          <ScalarProperty Name="isFirstTimeLogin" ColumnName="isFirstTimeLogin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

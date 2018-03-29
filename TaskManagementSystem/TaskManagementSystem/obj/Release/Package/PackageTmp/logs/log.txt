@@ -1,0 +1,116 @@
+
+Expected Start 09-Nov-17 12:06:37 AM   Expected End09-Nov-17 11:59:59 PM
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.
+Enter Work Non Return Order.[{"OE_ID":"a1101bae-2d53-4bb6-b848-a479e9ace159","EQ_ID":6,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1510018631787)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510018642667)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"woq"},{"OE_ID":"3854ab2a-f243-42f8-bca5-cc84ff1e46ea","EQ_ID":2,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":3,"OE_DateOrdered":"\/Date(1510017501920)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510017608293)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"Microphone"},{"OE_ID":"bcc87bd5-f7e8-4846-a686-2c9ec17a9360","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505858872690)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505870548753)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"a0b1c3f8-a17c-4dcb-9092-3e8f64a64c89","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505687386827)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505687510327)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"2a7e015c-7469-4ac9-8342-533bdcd59f7a","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505139897960)\/","OE_IsReturned":false,"OE_Comment":"Shooting Asseriveness","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505140136350)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"},{"OE_ID":"09d2ade7-0d0e-4e94-9ea2-6944e958c769","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505132227647)\/","OE_IsReturned":false,"OE_Comment":"verqec","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505139834943)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"}]
+Enter Work Non Return Order.
+Enter Work Non Return Order.[{"OE_ID":"a1101bae-2d53-4bb6-b848-a479e9ace159","EQ_ID":6,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1510018631787)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510018642667)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"woq"},{"OE_ID":"3854ab2a-f243-42f8-bca5-cc84ff1e46ea","EQ_ID":2,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":3,"OE_DateOrdered":"\/Date(1510017501920)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510017608293)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"Microphone"},{"OE_ID":"bcc87bd5-f7e8-4846-a686-2c9ec17a9360","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505858872690)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505870548753)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"a0b1c3f8-a17c-4dcb-9092-3e8f64a64c89","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505687386827)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505687510327)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"2a7e015c-7469-4ac9-8342-533bdcd59f7a","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505139897960)\/","OE_IsReturned":false,"OE_Comment":"Shooting Asseriveness","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505140136350)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"},{"OE_ID":"09d2ade7-0d0e-4e94-9ea2-6944e958c769","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505132227647)\/","OE_IsReturned":false,"OE_Comment":"verqec","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505139834943)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"}]
+Enter Work Non Return Order.
+Enter Work Non Return Order.[{"OE_ID":"a1101bae-2d53-4bb6-b848-a479e9ace159","EQ_ID":6,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1510018631787)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510018642667)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"woq"},{"OE_ID":"3854ab2a-f243-42f8-bca5-cc84ff1e46ea","EQ_ID":2,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":3,"OE_DateOrdered":"\/Date(1510017501920)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510017608293)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"Microphone"},{"OE_ID":"bcc87bd5-f7e8-4846-a686-2c9ec17a9360","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505858872690)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505870548753)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"a0b1c3f8-a17c-4dcb-9092-3e8f64a64c89","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505687386827)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505687510327)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"2a7e015c-7469-4ac9-8342-533bdcd59f7a","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505139897960)\/","OE_IsReturned":false,"OE_Comment":"Shooting Asseriveness","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505140136350)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"},{"OE_ID":"09d2ade7-0d0e-4e94-9ea2-6944e958c769","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505132227647)\/","OE_IsReturned":false,"OE_Comment":"verqec","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505139834943)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"}]
+Enter Work Non Return Order.
+Enter Work Non Return Order.[{"OE_ID":"a1101bae-2d53-4bb6-b848-a479e9ace159","EQ_ID":6,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1510018631787)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510018642667)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"woq"},{"OE_ID":"3854ab2a-f243-42f8-bca5-cc84ff1e46ea","EQ_ID":2,"USERT_ID":"aa68a42f-0f03-41e1-91b2-ee28440122c0","OE_QuantityOrdered":3,"OE_DateOrdered":"\/Date(1510017501920)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1510017608293)\/","STATUST_Desc":"OrderOut","Username":"Pierre Armand","EQ_Name":"Microphone"},{"OE_ID":"bcc87bd5-f7e8-4846-a686-2c9ec17a9360","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505858872690)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505870548753)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"a0b1c3f8-a17c-4dcb-9092-3e8f64a64c89","EQ_ID":1,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505687386827)\/","OE_IsReturned":false,"OE_Comment":"","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505687510327)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Camera"},{"OE_ID":"2a7e015c-7469-4ac9-8342-533bdcd59f7a","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":2,"OE_DateOrdered":"\/Date(1505139897960)\/","OE_IsReturned":false,"OE_Comment":"Shooting Asseriveness","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505140136350)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"},{"OE_ID":"09d2ade7-0d0e-4e94-9ea2-6944e958c769","EQ_ID":2,"USERT_ID":"34881d01-0e5a-4744-8e9b-195e47d7af54","OE_QuantityOrdered":1,"OE_DateOrdered":"\/Date(1505132227647)\/","OE_IsReturned":false,"OE_Comment":"verqec","OE_IsDeleted":false,"STATUST_ID":1004,"OE_Return_Time":null,"OE_Out_Time":"\/Date(1505139834943)\/","STATUST_Desc":"OrderOut","Username":"Kevin Teukeng","EQ_Name":"Microphone"}]
+
+Expected Start 11/9/2017 12:25:41 AM   Expected End11/9/2017 11:59:59 PM
+
+Expected Start 09-Nov-17 12:15:55 AM   Expected End09-Nov-17 11:59:59 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+Expected Start 09-Nov-17 1:23:53 AM   Expected End09-Nov-17 11:59:59 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+Expected Start 09-Nov-17 1:37:50 AM   Expected End09-Nov-17 11:59:59 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+Expected Start 09-Nov-17 2:21:54 AM   Expected End09-Nov-17 11:59:59 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+Expected Start 09-Nov-17 2:44:09 AM   Expected End09-Nov-17 11:59:59 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 16-Nov-17 10:59:59 AM    Actual end date09-Nov-17 2:57:14 AM   Expected start date09-Nov-17 2:22:39 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+From COmpleted Expected End Date 16-Nov-17 10:59:59 AM    Actual end date09-Nov-17 2:57:14 AM   Expected start date09-Nov-17 2:22:39 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 12:16:33 AM   Expected start date09-Nov-17 12:16:02 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:24:08 AM   Expected start date09-Nov-17 1:24:00 AM
+
+Expected Start 11/9/2017 10:48:57 AM   Expected End11/9/2017 11:59:59 PM
+Expected Start 11/9/2017 12:29:56 PM   Expected End11/9/2017 11:59:00 PM
+Expected Start 11/9/2017 12:31:18 PM   Expected End11/9/2017 11:59:00 PM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:28:54 AM   Expected start date09-Nov-17 1:28:12 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:29:51 AM   Expected start date09-Nov-17 1:29:45 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:26:34 AM   Expected start date09-Nov-17 1:26:21 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 9:13:23 AM   Expected start date09-Nov-17 9:12:08 AM
+From COmpleted Expected End Date 20-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:22:00 AM   Expected start date08-Nov-17 11:32:21 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:28:54 AM   Expected start date09-Nov-17 1:28:12 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:29:51 AM   Expected start date09-Nov-17 1:29:45 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:26:34 AM   Expected start date09-Nov-17 1:26:21 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 9:13:23 AM   Expected start date09-Nov-17 9:12:08 AM
+From COmpleted Expected End Date 20-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:22:00 AM   Expected start date08-Nov-17 11:32:21 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:28:54 AM   Expected start date09-Nov-17 1:28:12 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:29:51 AM   Expected start date09-Nov-17 1:29:45 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:26:34 AM   Expected start date09-Nov-17 1:26:21 AM
+From COmpleted Expected End Date 09-Nov-17 11:59:59 PM    Actual end date09-Nov-17 9:13:23 AM   Expected start date09-Nov-17 9:12:08 AM
+From COmpleted Expected End Date 20-Nov-17 11:59:59 PM    Actual end date09-Nov-17 1:22:00 AM   Expected start date08-Nov-17 11:32:21 AM
+Expected Start 11/17/2017 4:01:25 PM   Expected End11/17/2017 11:59:00 PM
+Expected Start 09-Jan-18 1:33:21 PM   Expected End09-Jan-18 11:59:00 PM
+Expected Start 15-Jan-18 2:02:54 PM   Expected End15-Jan-18 11:59:00 PM
+From COmpleted Expected End Date 9/16/2017 9:00:00 AM    Actual end date9/13/2017 12:13:12 AM   Expected start date9/11/2017 4:10:50 PM
+From COmpleted Expected End Date 9/16/2017 9:00:00 AM    Actual end date9/13/2017 12:13:12 AM   Expected start date9/11/2017 4:10:50 PM
+From COmpleted Expected End Date 9/16/2017 9:00:00 AM    Actual end date9/13/2017 12:13:12 AM   Expected start date9/11/2017 4:10:50 PM

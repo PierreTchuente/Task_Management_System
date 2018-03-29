@@ -1,0 +1,129 @@
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\Visual Studio 2015\Projects\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Documents\business\Company\Dr Phumi\Repository\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\_Manu\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+H:\_fromKevin\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+H:\_fromKevin\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+H:\_fromKevin\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\NoukoSolution\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.xml
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+I:\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\FromArmand\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Perfect\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Documents\private\Task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+D:\myStuff\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\TCHUENTE\Documents\TaskManagementSystem\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\Kevin\Desktop\task\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll.config
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\TaskManagementDBLibrary.pdb
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.dll
+C:\Users\ManuellaNouko\Desktop\Project\TaskManagementSystem\TaskManagementDBLibrary\obj\Debug\TaskManagementDBLibrary.pdb

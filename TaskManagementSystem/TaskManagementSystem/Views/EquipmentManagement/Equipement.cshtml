@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Equipement";
+    var calendarDate = ViewBag.calendarDate;
+}
+
+
+@*My Design=================================================================================================================================*@
+<div ng-controller="createEditViewEquipmentCtr" id="equipment" name="equipment" ng-cloak>
+    <div class="col-md-2">
+        <div class="panel panel-default task-column">
+            <div class="panel-heading">Manage Equipments:</div>
+            <div class="panel-body">
+                @*<button type="button" class="btn btn-info btn-sm pull-right" ng-show="{{userCanCreateEdit}}" data-toggle="modal" data-target="#addTask1">Add Task</button>*@
+                @*<button type="button" data-toggle="modal" data-target="#placeOrderModal2" style="width:100%" class="btn btn-info btn-sm">Place Order(s)</button>
+                <br />*@
+
+                <button type="button" ng-click="showMyOrdersDiv()" style="width:100%; margin-top:7px" class="btn btn-info btn-sm">View My Orders:
+                </button>
+                <br/>
+                <button type="button" ng-click="showAllOrdersDiv()" style="width:100%; margin-top:7px" class="btn btn-info btn-sm" ng-show="todaysOrdersClickable">View Today's Orders:</button>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="panel panel-default task-column">
+            <div class="panel-heading" ng-cloak>{{equipmentManagementTitle}}</div>
+            <div class="panel-body">
+                <div id="dynamicEquipmentManagementMyOrders" ng-if="showMyOrders">
+                    @{
+                        Html.RenderPartial("_MyOrdersPartial");
+                    }
+                </div>
+                <div id="dynamicEquipmentManagementEQManager" ng-if="showTodaysOrders">
+                    @{
+                        Html.RenderPartial("_EQManagerTodaysOrders");
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- PLACE ORDER MODAL BEGIN---->
+<div class="modal fade" id="placeOrderModal2" role="dialog" data-eq-qty="eq_qty">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <!-- Title Begin-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Place Order(s):</h4>
+            </div>
+            <!-- Title End-->
+            <!-- Content Begin-->
+            <div class="col-md-12 inside-box">
+                <div class="col-xs-12">
+                    <div class="col-md-12">
+                        @*<label for="form_message"><i aria-hidden="true"></i>Equipments: </label>*@
+                        <table class="table table-hover table-striped table-bordered table-responsive">
+                            <tr>
+                                <th class="span2"><b>Equipment</b></th>
+                                <th class="span2"><b>Available Qty</b></th>
+                                <th class="span1"><b>Qty Needed</b></th>
+                            </tr>
+                            @*<tr>
+                                <td>wow</td>
+                                <td>wow</td>
+                                <td>wow</td>
+                            </tr>*@
+                            <tr ng-repeat="(key, equipment) in EquipmentsEQPage">
+                                <td style="color:black">{{equipment.EQ_Name}}</td>
+                                <td>{{equipment.EQ_Quantity - equipment.EQ_QuantityOrdered}}/{{equipment.EQ_Quantity}}</td>
+                                <td><input class="form-control" type="number" required="required" data-error="Quantity in to be ordered please..." placeholder="0" value="0" ng-model="model[equipment.EQ_ID]" ng-blur="validatequantityordered(equipment.EQ_Quantity - equipment.EQ_QuantityOrdered,equipment.EQ_ID)" /></td>
+
+                            </tr>
+                        </table>
+                        <input ng-click="placeOrder(equipment)" type="submit" class="btn btn-info pull-right" value="SAVE ORDER(S)" data-dismiss="modal">
+
+                    </div>
+                </div>
+            </div>
+            <!-- Content End-->
+
+            <div class="modal-footer">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- PLACE ORDER MODAL END---->
+
+
+
+
+
+@*Scripts========================================================================================================================================*@
+<script>
+    var calendarDate = '@calendarDate';
+</script>

@@ -1,0 +1,39 @@
+﻿<table class="table table-hover table-striped table-bordered table-responsive" ng-cloak>
+    <tr>
+        <th class="span1"></th>
+        <th class="span2"><b>User:</b></th>
+        <th class="span3"><b>Equipment:</b></th>
+        <th class="span4"><b>Quantity:</b></th>
+        <th class="span5"><b>Status:</b></th>
+        <th class="span6"><b>Time Out:</b></th>
+        <th class="span7"><b>Time Returned:</b></th>
+    </tr>
+    <tr ng-repeat="(key, order) in allOrders">
+        <td style="color:black">{{ $index + 1 }}</td>
+        <td>{{ order.Username }}</td>
+        <td>{{ order.EQ_Name }}</td>
+        <td>{{ order.OE_QuantityOrdered }}</td>
+        @*<td class="{{getStatusColor(order.STATUST_ID)}}">{{ order.STATUST_Desc }}</td>*@
+        <td>
+            <div class="dropdown">
+                <button style="width:100%" ng-disabled="disableDropdown(order.STATUST_ID) " class="btn btn-default dropdown-toggle  {{getStatusColor(order.STATUST_ID)}}" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    {{order.STATUST_Desc}}
+                    <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li ng-repeat="status in statusT">
+                        <a ng-click="changeStatusEQPage(order.EQ_ID, status.ID, order.OE_ID, order.OE_QuantityOrdered, status.Text, order.USERT_ID)" href="#">{{status.Text}}</a>
+                    </li>
+                    @*<li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>*@
+                </ul>
+            </div>
+        </td>
+        <td>{{ order.OE_Out_Time }}</td>
+        <td style="color:darkgoldenrod">{{ order.OE_Return_Time }}</td>
+    </tr>
+
+</table>

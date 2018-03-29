@@ -1,0 +1,165 @@
+﻿@{
+    var calendarDate = ViewBag.calendarDate;
+    var today = DateTime.UtcNow.AddHours(2);
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <link href="~/Content/fullcalendar.min.css" rel="stylesheet" />
+    <link href="~/Content/fullcalendar.print.min.css" rel="stylesheet" media='print' />
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/DateUtilities.js"></script>
+    @*<link href="~/Content/style2.css" rel="stylesheet" />*@
+    @Styles.Render("~/Content/othercss")
+
+    <style>
+        .manager-body {
+            width: 100%;
+        }
+
+        body {
+            margin: 40px 10px;
+            padding: 0;
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 14px;
+            overflow-x: hidden;
+        }
+
+        #calendar {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #A0A8A0;
+        }
+
+        .table-style th:nth-of-type(7), td:nth-of-type(7) {
+            color: black;
+        }
+
+        .table-style th:nth-of-type(1), td:nth-of-type(1) {
+            color: black;
+        }
+    </style>
+</head>
+
+<body ng-cloak>
+
+    <div>
+
+        <div id='calendar' class="manu-white manu-display-container manu-wide manu-round" style="padding:20px 20px; opacity:0.9"></div>
+    </div>
+
+    <script>
+        //$('#calendar').fullCalendar('destroy');
+        var today = '@today';
+        var nowdateforcalendar = getMonthDayYear3(new Date(today));
+        //debugger;
+
+        $(document).ready(function () {
+
+            $.ajax({
+                url: '/TaskManagement/ListTaskPerDay',
+                type: "GET",
+                data: {
+                    date: "01/01/2001"
+                },
+                async: false,
+                cache: false,
+                dataType: "json",
+                success: function (result) {
+
+                    //debugger;
+
+                    var data = result;
+                    data = data.Data;
+                    var event = [];
+
+                    for (var i = 0 ; i < data.length; i++) {
+                        var Enddate = new Date(data[i].TASK_ExpectedEndDate);
+                        data[i].TASK_ExpectedEndDate = getFullDateTimeForCalendar(Enddate);
+
+                        Enddate = new Date(data[i].TASK_ExpectedStartDate);
+                        data[i].TASK_ExpectedStartDate = getFullDateTimeForCalendar(Enddate);
+
+                        event.push({
+                            title: data[i].TASK_Name,
+                            start: data[i].TASK_ExpectedStartDate,
+                            end: data[i].TASK_ExpectedEndDate
+                        }
+                           // "{title: '" + +"', start: '" + data[i].TASK_ExpectedStartDate + "', end: '" + data[i].TASK_ExpectedEndDate + "'}"
+                        );
+                    }
+
+                    //debugger;
+
+                    $('#calendar').fullCalendar({
+                        defaultDate: nowdateforcalendar,
+                        editable: true,
+                        eventLimit: true,
+                        selectable: true,
+                        select: function (start, end) {
+
+                            var day = start._d.getDate();       // yields start._d
+                            var month = start._d.getMonth() + 1;    // yields month (add one as '.getMonth()' is zero indexed)
+                            var year = start._d.getFullYear(); // yields seconds
+                            if (day < 10)
+                                day = "0" + day;
+                            if (month < 10)
+                                month = "0" + month;
+                            // After this construct a string with the above results as below
+                            var time = day + "/" + month + "/" + year + " 00:00:00 ";
+
+                            //debugger;
+                            window.location = '/TaskManagement/RedirectToTask?Date=' + time;
+                            /* $.ajax({
+                                 url: '/TaskManagement/RedirectToTask',
+                                 type: "GET",
+                                 data: {
+                                     Date: date
+                                 },
+                                 async: true,
+                                 cache: false,
+                                 dataType: "json",
+                                 success: function (result) {
+                                 },
+                                 error: function (err) {
+
+                                 },
+                             });*/
+                        },		// allow "more" link when too many events
+                        events: event,
+                        eventColor: '#DAA520'
+                        // [{ title: 'create', start: '2017-09-01T14:25:30', end: '2017-09-01T16:0:0' }, { title: 'test again', start: '2017-09-06T03:06:57', end: '2017-09-8T16:0:0' }]
+                        /*[{
+                            title: 'Long Event',
+                            start: '2017-08-07',
+                            end: '2017-09-10'
+                        }]*/
+                    });
+
+                },
+                error: function (err) {
+
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+
+        //debugger;
+
+        var calendarDate = '@calendarDate';
+
+        var timer = setTimeout(function () {
+            $('.fc-today-button').click();
+            clearTimeout(timer);
+        },
+            2000
+        );
+
+    </script>
+
+</body>
+</html>

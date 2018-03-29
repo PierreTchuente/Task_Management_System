@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "ManageUser";
+}
+
+<h2>Manage Deparment(s)</h2>
+<div ng-controller="departmentCtr" ng-cloak>
+
+    <a  data-toggle="modal" data-target="#addDept" ng-click="create()">
+        Create New
+    </a>
+
+    <table class="table table-responsive table-hover table-bordered" style="width:70%;margin-left:5%;">
+        <thead>
+            <tr>
+                <td> Department </td>
+                <td> HOD </td>
+                <td> Edit</td>
+                @*<td> Delete </td>*@
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="(key, department) in deparments">
+                <td>{{department.DEPT_Desc}}</td>
+                <td>{{department.USERT_Username}}</td>
+                <td><a ng-click="edit(department.DEPT_ID , department.DEPT_Desc , department.Dept_HOD )" data-toggle="modal" data-target="#addDept"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                @*<td><a ng-click="delete(department.DEPT_ID)"><span class="glyphicon glyphicon-remove"></span></a></td>*@
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+<div class="modal fade" id="addDept" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header task-title">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title ">Add Department</h4>
+            </div>
+            <div class="col-md-12 inside-box">
+
+                <div class="col-xs-12">
+
+                    <form id="addingatask" name="addingatask">
+                        <div class="col-md-12">
+                            <div class="form-group">
+
+                                <!-- DESCRIPTION FILL -->
+                                <!---TEXT AREA DESCRIPTION-->
+
+                                <label for="form_message"> Department Title</label>
+                                <div ng-class="{ 'has-error' : addingatask.Title.$invalid && !addingatask.Title.$pristine }">
+                                    <textarea id="Title" name="Title" class="form-control descrip" placeholder="Message for me *" rows="1" required="required" ng-model="model.Title" ng-required="true"></textarea>
+                                    <span class="help-block" ng-show="addingatask.Title.$error.required && addingatask.Title.$dirty && addingatask.Title.$invalid && addingatask.Title.$pristine"> "Please enter the title" </span>
+                                </div>
+                                </div>
+
+                            <div class="form-group">
+
+                                <!-- DESCRIPTION FILL -->
+                                <!---TEXT AREA DESCRIPTION-->
+
+                                <label for="form_message"> Head Of Department</label>
+                                <div>
+                                    <select name="hod" id="hod"
+                                            class="form-control descrip"
+                                            ng-options="option.USERT_Username for option in users track by option.USERT_ID"
+                                            ng-model="model.HOD"></select>
+                                </div>
+                            </div>
+
+                            </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" ng-click="createDepartment()">Save</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+
+<style>
+    .table-style th:nth-of-type(1), td:nth-of-type(1) {
+    color: black;
+}
+</style>

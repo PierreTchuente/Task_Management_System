@@ -1,0 +1,295 @@
+﻿@{
+    var calendarDate = ViewBag.calendarDate;
+}
+
+@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    @*<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">*@
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="~/Content/Images/rsz_logo1.png" rel="shortcut icon" type="image/x-icon" />
+
+    @*Kevin Adding. I just Commented it out.*@
+    @*<meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />*@
+
+
+    @*<img src="~/Content/Images/rsz_logo1.png" />*@
+    @*<link href="~/Content/TaskManagementCss/mine.css" rel="stylesheet" />*@
+
+    @*<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">*@
+
+    <title>WorkBelt</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @*@Scripts.Render("~/bundles/scrollingnav")*@
+
+</head>
+
+<body id="task-page" ng-app="taskManagement" ng-controller="MainController" class="ng-cloak" style="overflow-x:scroll;">
+
+
+    <script>
+        // if a logIn is successful userDetails will containt the details of the current user.
+        var userDetails = '@ViewBag.UserDetails';
+        var calendarDate = '@ViewBag.calendarDate';
+        var Listlevel; var ListDepartment; var ListGender; // for the sake of compilation.
+
+    </script>
+
+    @*<!---LEFT SIDE MENU--->
+        @{Html.RenderPartial("_LeftSideMenuPartial");}
+        <!---/LEFT SIDE MENU--->*@
+    <!---TOP NAVBAR--->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="padding-right:15px">
+        <div class="container-fluid" style="height:100%">
+
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("WebSiteName", "Calendar", new {@class= "navbar -brand", @id = "menu-toggle" })*@
+                <a href="@Url.Action("Calendar","Home")">
+                    @*<img class="logoclass" src="~/Content/Images/logo2TestResize.jpg" />*@
+                    <img class="logoclass img-responsive" src="../Content/Images/rsz_logo1.png" />
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="collapse navbar-collapse" id="myNavbar" style="margin-top:6px">
+                <ul class="nav navbar-nav">
+                    <li class="left-menu">@Html.ActionLink("Tasks", "MainPage", "Home")</li>
+                    <li class="left-menu">@Html.ActionLink("My Tasks", "MainPag", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="margin-top:10px">
+                    @if (Request.IsAuthenticated && Session["UserDetails"] != null)
+
+                    {
+                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <li class="dropdown" style="margin-right:10px">
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">
+                                    <img class="user-avatar img-circle" id="UserDropPict" alt="" ng-src="{{getUserPicturel()}}" width="40" style="margin-left:6px;margin-top:2px">
+                                    <span class="user-name">
+                                        <span class="hidden-xs">
+                                            @{User.Identity.GetUserName();} <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu" style="margin-right:10px">
+                                    <li><a href="@Url.Action("ViewProfile","UserManagement", new {id = User.Identity.GetUserId() })"><i class="fa fa-pencil fa-fw"></i> View Profile </a></li>
+                                    <li><a href="@Url.Action("ChangePassword","Manage")"><i class="fa fa-lock"></i> Change Password</a></li>
+                                    <li ng-show="userDetails.LEVELT_ID === 1"><a href="@Url.Action("ManageUser","UserManagement")"><i class="fa fa-users"></i> Manage Users </a></li>
+                                    <li ng-show="userDetails.LEVELT_ID === 1"><a href="@Url.Action("ManageDeparment", "DepartmentManagement")"><i class="fa fa-building"></i> Manage Departments </a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-power-off"></i> Log Out</a></li>
+                                </ul>
+                            </li>
+                                                    }
+                                                }
+                                                @*Manuella's Shopping cart stuff BEGIN ===============================================================*@
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                        <span class="badge badge-corner" ng-cloak>{{numberOfOrders}}</span>
+                                                        <i class="fa fa-shopping-cart icon-item" aria-hidden="true"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu right-menu third-icon" style="overflow-y:scroll; max-height:500px">
+                                                        <li ng-repeat="(key, cartItem) in shoppingCart">
+                                                            <a href="#">
+                                                                <div class="row">
+                                                                    <div class="col-sm-2">
+                                                                        <span class="fa fa-shopping-cart"></span>
+                                                                    </div>
+                                                                    <div class="col-sm-8">
+                                                                        <span>
+                                                                            <b>Equipment: {{cartItem.EQ_Name}} </b>
+                                                                            <br /> Quantity Ordered:
+                                                                            <b> {{cartItem.OE_QuantityOrdered}} </b>
+                                                                            <br />  Status of Order:
+                                                                            <span class="{{getStatusColor(cartItem.STATUST_ID)}}">{{cartItem.STATUST_Desc}}</span>
+                                                                        </span>
+                                                                    </div>
+                                                                    <div class="col-sm-2">
+                                                                        <span class="glyphicon glyphicon-remove-circle" aria-hidden="true" data-toggle="modal" data-target="#modalCheckDeleteOrder" ng-click="setParamsForDelete(cartItem.OE_ID, cartItem.EQ_Name)" ng-show="cartItem.statusCheck"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <hr />
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                                @*Manuella's Shopping cart stuff END =============================================================== *@
+
+                                                <li class="dropdown">
+                                                    <a class="" href="@Url.Action("Complete","TaskManagement")"><i class="fa fa-check icon-item" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="" href="@Url.Action("Equipement","EquipmentManagement")"><i class="fa fa-gavel icon-item" aria-hidden="true" title="Equipment"></i></a>
+                                                </li>
+                                                <li class="dropdown notification-menu" id="notificationMenu">
+                                                    <a class="dropdown-toggle " data-toggle="dropdown" href="#">
+                                                        <span class="badge badge-red badge-corner">{{numberOfUserNotification}}</span>
+                                                        <i class="fa fa-bell icon-item" aria-hidden="true"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu right-menu third-icon" style="overflow-y:scroll; max-height:500px;">
+                                                        <li ng-repeat="(key, notif) in ListOfUserNotification">
+                                                            <a href="#" style="white-space:normal">
+                                                                <span>
+                                                                    <img ng-src="/TaskManagementImages/{{notif.USER_ID}}/{{notif.USERT_PhotoLink}}" class="user-avatar img-circle icon-item" alt="User picture" width="40" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')" />
+                                                                    <br />
+                                                                    <b>{{notif.message}} </b>
+                                                                    <br />
+                                                                    by <b>{{notif.USERT_Username}} </b>
+                                                                    <br />
+                                                                    {{notif.notificationDateTime | date: 'medium'}}
+                                                                </span>
+                                                            </a>
+                                                            <hr />
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!--/LEFT MENU-->
+                                        <!--LEFT MENU-->
+                                        @*<div class="navbar-header" style="color:white">*@
+                                        @*<a href="@Url.Action("Calendar","Home")">*@
+                                        @*<img class="logoclass" src="~/Content/Images/rsz_logo1.png" />*@
+                                        @*</a>
+                                            </div>*@
+
+                                        @*<ul class="nav navbar-nav">*@
+                                        @*<li class="left-menu">@Html.ActionLink("Tasks", "MainPage", "Home")</li>
+                                                <li class="left-menu">@Html.ActionLink("My Tasks", "MainPag", "Home")</li>
+                                            </ul>*@
+                                        <!--/LEFT MENU-->
+                                        <!--RIGHT MENU-->
+                                        <!--/RIGHT MENU-->
+                                    </div>
+                                </nav>
+
+
+
+
+
+
+
+                                <!---/TOP NAVBAR--->
+                                <div @*class="container body-content"*@ class="container-fluid manager-body" style="width:auto">
+                                    @RenderBody()
+                                    <footer style="position:absolute; bottom:0; text-align:right">
+                                        
+                                        <p>&copy; @DateTime.Now.Year - Zallywood WorkBelt Application</p>
+                                        @*<nav class="navbar navbar-inverse container-fluid manager-body navbar-fixed-bottom">
+                                            <ul class="nav navbar-nav"></ul>
+                                            <ul class="nav pull-right icon-menu navbar-nav">
+                                                <li class="dropdown" style="padding-right:0px; margin-right:20px">
+                                                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">
+                                                        <img class="user-avatar img-circle" id="UserBottPic" alt="" ng-src="{{getUserPicturel()}}" width="40">
+                                                        <i class="fa fa-angle-up"></i>
+                                                    </a>
+                                                    <ul class="dropdown-menu dropdown-menu-right" style="overflow-y:scroll;">
+                                                        <li ng-repeat="(key, user) in listOfusers">
+                                                            <a style="cursor:pointer" ng-click="getUser(user)"><img ng-src="{{getUserPict(user)}}" class="user-avatar img-circle icon-item" title="{{user.USERT_Name}}" width="40" /> {{user.USERT_Name}} </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>*@
+                                    </footer>
+                                </div>
+
+
+                                @*======================MANU OTHER MODAL BEGIN ===========================================*@
+                                @*Modal to ask if user is sure BEGIN----------------------*@
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalCheckDeleteOrder" role="dialog">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title due-date-sticker red-sticker manu-round" style="padding-left:10px;padding-right:10px">WARNING!</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Are you sure you want to delete the order?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button ng-click="deleteOrder(deleteOrderOrderIDParam,deleteOrderEQNameParam)" type="button" class="btn btn-default" data-dismiss="modal">Delete Order</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                @*Modal to ask if user is sure END----------------------*@
+                                @*======================MANU OTHER MODAL BEGIN ===========================================*@
+
+
+                                @Scripts.Render("~/bundles/jquery")
+                                @Scripts.Render("~/bundles/angularjslib")
+                                @Scripts.Render("~/bundles/taskManagement_AngJS")
+                                @Scripts.Render("~/bundles/bootstrap")
+                                @Scripts.Render("~/bundles/jqueryeasing")
+                                @Scripts.Render("~/bundles/scrollingnav")
+
+                                <script>
+
+        $(document).ready(function () {
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $(".sidenav").toggleClass("active");
+            });
+            $(".btn-respo").click(function () {
+                $(".collapse1").collapse('show');
+            });
+            $(".btn-close1").click(function () {
+                $(".collapse1").collapse('toggle');
+            });
+            $(".btn-second").click(function () {
+                $(".collapse1").collapse('hide');
+            });
+            $(".btn-close2").click(function () {
+                $(".collapse2").collapse('toggle');
+            });
+            $(".btn-respo2").click(function () {
+                $(".collapse2").collapse('show');
+            });
+            $(".btn-second").click(function () {
+                $(".collapse2").collapse('hide');
+            });
+        });
+                                </script>
+
+                                @RenderSection("scripts", required: false)
+                                
+                            </body>
+                        </html>
+                        <script>
+    var calendarDate = '@calendarDate';
+                        </script>

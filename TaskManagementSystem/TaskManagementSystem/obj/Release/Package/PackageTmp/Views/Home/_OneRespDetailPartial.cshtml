@@ -1,0 +1,19 @@
+﻿<div id="ItemDivID_{{key}}" class="panel panel-default" ng-cloak>
+    <div class="panel-body res-box">
+
+        @*<div class="col-md-12 row">
+
+                <i class="fa fa-comments-o" aria-hidden="true"></i> 1
+            </div>*@
+        <div class="row">
+            <div class="col-sm-11">
+                <span class="res-title">
+                    <b>{{resps.RESPONSIBILITY_Desc}}</b>
+                </span>
+            </div>
+            <div class="col-sm-1 pull-right">
+                <span ng-click="DeleteResponsibility(resps.RESPONSIBILITY_ID, resps.DeptID)" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+            </div>
+        </div>
+    </div>
+</div>

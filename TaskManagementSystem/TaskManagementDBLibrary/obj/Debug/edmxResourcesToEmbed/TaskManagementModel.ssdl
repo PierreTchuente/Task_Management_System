@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TaskManagementDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="AddMemberToDepartmentResponsibilitiesSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ApproveEquipmentsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AssignTaskUserSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="ChangeUserPictName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="pictureName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CreateAlert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="alertID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="alertCreatedByID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="alertDescription" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CreateChecklistSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="IsCompleted" Type="bit" Mode="In" />
+    <Parameter Name="Weight" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CreateCommentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="DatePosted" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="CreateDepartmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Desc" Type="varchar" Mode="In" />
+    <Parameter Name="HOD" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="CreateEquipmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Qty" Type="int" Mode="In" />
+    <Parameter Name="IsApproved" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="CreateNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="notiID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="USER_ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="typeID" Type="tinyint" Mode="In" />
+    <Parameter Name="message" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CreateOrderEquipmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EqID" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Qty" Type="int" Mode="In" />
+    <Parameter Name="Date" Type="datetime" Mode="In" />
+    <Parameter Name="Comment" Type="text" Mode="In" />
+  </Function>
+  <Function Name="CreateProjectSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Creator" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="ExpectedStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ExpectedEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="IsPrivate" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="CreateResponsibilitySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="varchar" Mode="In" />
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CreateTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="ExpectedStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ExpectedEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="IsPrivate" Type="bit" Mode="In" />
+    <Parameter Name="FolderPath" Type="varchar" Mode="In" />
+    <Parameter Name="Weight" Type="int" Mode="In" />
+    <Parameter Name="PriorityLevel" Type="int" Mode="In" />
+    <Parameter Name="Creator" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Status" Type="int" Mode="In" />
+    <Parameter Name="IsCompleted" Type="bit" Mode="In" />
+    <Parameter Name="IsRepeated" Type="bit" Mode="In" />
+    <Parameter Name="RepeatInterval" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="CreateUserNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="notiID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="sender_ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="typeID" Type="tinyint" Mode="In" />
+    <Parameter Name="message" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CreateUserTSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Username" Type="varchar" Mode="In" />
+    <Parameter Name="LevelID" Type="int" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="HashPass" Type="varchar(max)" Mode="In" />
+    <Parameter Name="PhotoLink" Type="varchar" Mode="In" />
+    <Parameter Name="RegisteredTime" Type="datetime" Mode="In" />
+    <Parameter Name="OnlineStatus" Type="tinyint" Mode="In" />
+    <Parameter Name="Phone" Type="varchar" Mode="In" />
+    <Parameter Name="Gender" Type="int" Mode="In" />
+    <Parameter Name="DOB" Type="date" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+    <Parameter Name="MemberStatus" Type="tinyint" Mode="In" />
+  </Function>
+  <Function Name="DeactivateActivateUserTSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeactivateFistimeLogIn" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeActivateProjectTSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeleteChecklistSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeleteDepartmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteOrderEquipmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeleteTaskUsersSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="DeleteUserNotifications" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetAllPreviousTasksPerCalendarDaySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetChecklistsPerTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetChecklistsWeightPerTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetCommentsPerTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetCompletedCalendarTasksPerDaySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetCompletedTasksPerDaySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetCurrentDepartmentHODSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetDepartmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetDepartmentsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetEquipmentsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetGendesrSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetLevelsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetListOfTodayNotification" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetNotificationType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetOrderShoppingCartSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TodayDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetOrdersPerEquipmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EqID" Type="int" Mode="In" />
+    <Parameter Name="Date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetOtherMembersInDeptRespSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetProjectDetailsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetProjectsListPerCreatorSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CreatorID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetProjectsListSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetRepeatIntervalsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetResponsibilitiesPerDeptSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetResponsibilitiesSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetStatussSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetTasksPerCalendarDayPerUserSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetTasksPerCalendarDaySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTasksPerDayPerUserSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTasksPerDaySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTasksPerDaySPTable" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTaskUsersSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetTodayAlert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetTodaysOrdersSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TodayDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetUserDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetUserNotifications" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetUserTSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetUserTsSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ListOfTasksAssignedToUserID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="ListOfUsersAssignedToTaskIDSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="LogUserSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="OrdersNotReturnedSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="RemoveMemberFromDepartmentResponsibilitiesSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="RemoveResponsibilitySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ReturnOrderSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UerFullTextSearch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="seachTerm" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="UnassignTaskToUserSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UpdatDepartmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Desc" Type="varchar" Mode="In" />
+    <Parameter Name="HOD" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UpdateChecklistSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="IsCompleted" Type="bit" Mode="In" />
+    <Parameter Name="TaskID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UpdateEquipmentSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Qty" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateEquipmentStatusSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EqID" Type="int" Mode="In" />
+    <Parameter Name="StatusID" Type="int" Mode="In" />
+    <Parameter Name="OEID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Time" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="UpdateIsCompletedTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="IsCompleted" Type="bit" Mode="In" />
+    <Parameter Name="Date" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="UpdateProjectSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Creator" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="ExpectedStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ExpectedEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="IsPrivate" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="UpdateResponsibilitySP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="UpdateRoleSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="SuperUserID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UpdateTaskSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="ExpectedStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ExpectedEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="ActualEndDate" Type="datetime" Mode="In" />
+    <Parameter Name="IsPrivate" Type="bit" Mode="In" />
+    <Parameter Name="FolderPath" Type="varchar" Mode="In" />
+    <Parameter Name="Weight" Type="int" Mode="In" />
+    <Parameter Name="PriorityLevel" Type="int" Mode="In" />
+    <Parameter Name="Status" Type="int" Mode="In" />
+    <Parameter Name="IsCompleted" Type="bit" Mode="In" />
+    <Parameter Name="IsRepeated" Type="bit" Mode="In" />
+    <Parameter Name="RepeatInterval" Type="int" Mode="In" />
+    <Parameter Name="ProjectID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="UpdateUserTSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Username" Type="varchar" Mode="In" />
+    <Parameter Name="LevelID" Type="int" Mode="In" />
+    <Parameter Name="Desc" Type="text" Mode="In" />
+    <Parameter Name="Email" Type="varchar" Mode="In" />
+    <Parameter Name="HashPass" Type="varchar(max)" Mode="In" />
+    <Parameter Name="PhotoLink" Type="varchar" Mode="In" />
+    <Parameter Name="RegisteredTime" Type="datetime" Mode="In" />
+    <Parameter Name="OnlineStatus" Type="tinyint" Mode="In" />
+    <Parameter Name="Phone" Type="varchar" Mode="In" />
+    <Parameter Name="Gender" Type="int" Mode="In" />
+    <Parameter Name="DOB" Type="date" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="DeptID" Type="int" Mode="In" />
+    <Parameter Name="MemberStatus" Type="tinyint" Mode="In" />
+  </Function>
+  <EntityContainer Name="TaskManagementDBModelStoreContainer" />
+</Schema>

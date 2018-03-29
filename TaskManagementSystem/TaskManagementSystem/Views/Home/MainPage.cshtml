@@ -1,0 +1,44 @@
+﻿@{ 
+    //var calendarDate = ViewBag.calendarDate;
+    var mytask = ViewBag.MyTask;
+}
+
+<!---ADD TASK--->
+@{Html.RenderPartial("_AddTaskPartial");}
+<!---/ADD TASK---> 
+
+   <!---LEFT SIDE MENU--->
+@{Html.RenderPartial("_LeftSideMenuPartial");}
+<!---/LEFT SIDE MENU--->
+
+<div class="row" ng-cloak>
+
+    
+        <!---COLUMN Responsibility PANEL--->
+        @{Html.RenderPartial("_ResponsibilityPartial");}
+        <!---/COLUMN Responsibility PANEL--->
+
+        <!---COLUMN TaskPartial PANEL--->
+        @{Html.RenderPartial("_TaskPartial");}
+        <!---/COLUMN TaskPartial PANEL--->
+
+        <!---COLUMN Equipement PANEL--->
+        @{Html.RenderPartial("_EquipementPartial");}
+        <!---/COLUMN Equipement PANEL--->
+
+        <!---COLUMN AlertNotiifcation PANEL--->
+        @{Html.RenderPartial("_AlertNotiifcationPartial");}
+        <!---/COLUMN AlertNotiifcation PANEL--->
+
+        <!---COLUMN CompletedTask PANEL--->
+        @*@{Html.RenderPartial("_CompletedTaskPartial");}*@
+        <!---/COLUMN CompletedTask PANEL--->
+
+
+</div>
+<script>
+    //var calendarDate = 'calendarDate';
+    var mytask = '@mytask';
+</script>
+
+

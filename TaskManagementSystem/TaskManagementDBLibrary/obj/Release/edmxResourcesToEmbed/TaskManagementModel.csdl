@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TaskManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TaskManagementDBEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="AssignTaskUserSP">
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeactivateActivateUserTSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeActivateProjectTSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteChecklistSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetChecklistsPerTaskSP" ReturnType="Collection(TaskManagementDBModel.GetChecklistsPerTaskSP_Result)">
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetGendesrSP" ReturnType="Collection(TaskManagementDBModel.GetGendesrSP_Result)" />
+    <FunctionImport Name="GetLevelsSP" ReturnType="Collection(TaskManagementDBModel.GetLevelsSP_Result)" />
+    <FunctionImport Name="GetProjectDetailsSP" ReturnType="Collection(TaskManagementDBModel.GetProjectDetailsSP_Result)">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetProjectsListPerCreatorSP" ReturnType="Collection(TaskManagementDBModel.GetProjectsListPerCreatorSP_Result)">
+      <Parameter Name="CreatorID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetProjectsListSP" ReturnType="Collection(TaskManagementDBModel.GetProjectsListSP_Result)" />
+    <FunctionImport Name="GetRepeatIntervalsSP" ReturnType="Collection(TaskManagementDBModel.GetRepeatIntervalsSP_Result)" />
+    <FunctionImport Name="GetStatussSP" ReturnType="Collection(TaskManagementDBModel.GetStatussSP_Result)" />
+    <FunctionImport Name="GetTasksPerDayPerUserSP" ReturnType="Collection(TaskManagementDBModel.GetTasksPerDayPerUserSP_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetUserTSP" ReturnType="Collection(TaskManagementDBModel.GetUserTSP_Result)">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetUserTsSP" ReturnType="Collection(TaskManagementDBModel.GetUserTsSP_Result)" />
+    <FunctionImport Name="UnassignTaskToUserSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateChecklistSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="IsCompleted" Mode="In" Type="Boolean" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateProjectSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Creator" Mode="In" Type="Guid" />
+      <Parameter Name="ExpectedStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsPrivate" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateResponsibilitySP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Title" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateTaskSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="ExpectedStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsPrivate" Mode="In" Type="Boolean" />
+      <Parameter Name="FolderPath" Mode="In" Type="String" />
+      <Parameter Name="Weight" Mode="In" Type="Int32" />
+      <Parameter Name="PriorityLevel" Mode="In" Type="Int32" />
+      <Parameter Name="Status" Mode="In" Type="Int32" />
+      <Parameter Name="IsCompleted" Mode="In" Type="Boolean" />
+      <Parameter Name="IsRepeated" Mode="In" Type="Boolean" />
+      <Parameter Name="RepeatInterval" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="CreateUserTSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="LevelID" Mode="In" Type="Int32" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="HashPass" Mode="In" Type="String" />
+      <Parameter Name="PhotoLink" Mode="In" Type="String" />
+      <Parameter Name="RegisteredTime" Mode="In" Type="DateTime" />
+      <Parameter Name="OnlineStatus" Mode="In" Type="Byte" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+      <Parameter Name="Gender" Mode="In" Type="Int32" />
+      <Parameter Name="DOB" Mode="In" Type="DateTime" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+      <Parameter Name="MemberStatus" Mode="In" Type="Byte" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateUserTSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="LevelID" Mode="In" Type="Int32" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="HashPass" Mode="In" Type="String" />
+      <Parameter Name="PhotoLink" Mode="In" Type="String" />
+      <Parameter Name="RegisteredTime" Mode="In" Type="DateTime" />
+      <Parameter Name="OnlineStatus" Mode="In" Type="Byte" />
+      <Parameter Name="Phone" Mode="In" Type="String" />
+      <Parameter Name="Gender" Mode="In" Type="Int32" />
+      <Parameter Name="DOB" Mode="In" Type="DateTime" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+      <Parameter Name="MemberStatus" Mode="In" Type="Byte" />
+    </FunctionImport>
+    <FunctionImport Name="CreateChecklistSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="IsCompleted" Mode="In" Type="Boolean" />
+      <Parameter Name="Weight" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CreateCommentSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="DatePosted" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="CreateProjectSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Creator" Mode="In" Type="Guid" />
+      <Parameter Name="ExpectedStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsPrivate" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="CreateTaskSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="ExpectedStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ExpectedEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualStartDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ActualEndDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IsPrivate" Mode="In" Type="Boolean" />
+      <Parameter Name="FolderPath" Mode="In" Type="String" />
+      <Parameter Name="Weight" Mode="In" Type="Int32" />
+      <Parameter Name="PriorityLevel" Mode="In" Type="Int32" />
+      <Parameter Name="Creator" Mode="In" Type="Guid" />
+      <Parameter Name="Status" Mode="In" Type="Int32" />
+      <Parameter Name="IsCompleted" Mode="In" Type="Boolean" />
+      <Parameter Name="IsRepeated" Mode="In" Type="Boolean" />
+      <Parameter Name="RepeatInterval" Mode="In" Type="Int32" />
+      <Parameter Name="ProjectID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="ListOfTasksAssignedToUserID" ReturnType="Collection(TaskManagementDBModel.ListOfTasksAssignedToUserID_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="ListOfUsersAssignedToTaskIDSP" ReturnType="Collection(TaskManagementDBModel.ListOfUsersAssignedToTaskIDSP_Result)">
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetTaskSP" ReturnType="Collection(TaskManagementDBModel.GetTaskSP_Result)">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteTaskUsersSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="RemoveResponsibilitySP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetCommentsPerTaskSP" ReturnType="Collection(TaskManagementDBModel.GetCommentsPerTaskSP_Result)">
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteOrderEquipmentSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="ReturnOrderSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateEquipmentSP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Qty" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetCompletedTasksPerDaySP" ReturnType="Collection(TaskManagementDBModel.GetCompletedTasksPerDaySP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetChecklistsWeightPerTaskSP" ReturnType="Collection(TaskManagementDBModel.GetChecklistsWeightPerTaskSP_Result)">
+      <Parameter Name="TaskID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetTasksPerDaySPTable">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTasksPerDaySP" ReturnType="Collection(TaskManagementDBModel.GetTasksPerDaySP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTaskUsersSP" ReturnType="Collection(TaskManagementDBModel.GetTaskUsersSP_Result)" />
+    <FunctionImport Name="DeactivateFistimeLogIn">
+      <Parameter Name="userID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="LogUserSP" ReturnType="Collection(TaskManagementDBModel.LogUserSP_Result)">
+      <Parameter Name="Email" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UerFullTextSearch" ReturnType="Collection(TaskManagementDBModel.UerFullTextSearch_Result)">
+      <Parameter Name="seachTerm" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddMemberToDepartmentResponsibilitiesSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CreateResponsibilitySP">
+      <Parameter Name="Title" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetDepartmentSP" ReturnType="Collection(TaskManagementDBModel.GetDepartmentSP_Result)">
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetDepartmentsSP" ReturnType="Collection(TaskManagementDBModel.GetDepartmentsSP_Result)" />
+    <FunctionImport Name="GetOtherMembersInDeptRespSP" ReturnType="Collection(TaskManagementDBModel.GetOtherMembersInDeptRespSP_Result)">
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetResponsibilitiesPerDeptSP" ReturnType="Collection(TaskManagementDBModel.GetResponsibilitiesPerDeptSP_Result)">
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetResponsibilitiesSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="RemoveMemberFromDepartmentResponsibilitiesSP">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetNotificationType" ReturnType="Collection(TaskManagementDBModel.GetNotificationType_Result)" />
+    <FunctionImport Name="UpdateIsCompletedTaskSP">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+      <Parameter Name="IsCompleted" Mode="In" Type="Boolean" />
+      <Parameter Name="Date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="ApproveEquipmentsSP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CreateEquipmentSP">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="Qty" Mode="In" Type="Int32" />
+      <Parameter Name="IsApproved" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="GetEquipmentsSP" ReturnType="Collection(TaskManagementDBModel.GetEquipmentsSP_Result)" />
+    <FunctionImport Name="CreateNotification">
+      <Parameter Name="notiID" Mode="In" Type="Guid" />
+      <Parameter Name="USER_ID" Mode="In" Type="Guid" />
+      <Parameter Name="typeID" Mode="In" Type="Byte" />
+      <Parameter Name="message" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteUserNotifications">
+      <Parameter Name="userID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="CreateUserNotification">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="notiID" Mode="In" Type="Guid" />
+      <Parameter Name="sender_ID" Mode="In" Type="Guid" />
+      <Parameter Name="typeID" Mode="In" Type="Byte" />
+      <Parameter Name="message" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetListOfTodayNotification" ReturnType="Collection(TaskManagementDBModel.GetListOfTodayNotification_Result)" />
+    <FunctionImport Name="GetUserNotifications" ReturnType="Collection(TaskManagementDBModel.GetUserNotifications_Result)">
+      <Parameter Name="userID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateEquipmentStatusSP">
+      <Parameter Name="EqID" Mode="In" Type="Int32" />
+      <Parameter Name="StatusID" Mode="In" Type="Int32" />
+      <Parameter Name="OEID" Mode="In" Type="Guid" />
+      <Parameter Name="Time" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="CreateOrderEquipmentSP" ReturnType="Collection(Guid)">
+      <Parameter Name="EqID" Mode="In" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="Qty" Mode="In" Type="Int32" />
+      <Parameter Name="Date" Mode="In" Type="DateTime" />
+      <Parameter Name="Comment" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetOrderShoppingCartSP" ReturnType="Collection(TaskManagementDBModel.GetOrderShoppingCartSP_Result)">
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="TodayDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetAllPreviousTasksPerCalendarDaySP" ReturnType="Collection(TaskManagementDBModel.GetAllPreviousTasksPerCalendarDaySP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetCompletedCalendarTasksPerDaySP" ReturnType="Collection(TaskManagementDBModel.GetCompletedCalendarTasksPerDaySP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTasksPerCalendarDayPerUserSP" ReturnType="Collection(TaskManagementDBModel.GetTasksPerCalendarDayPerUserSP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetTasksPerCalendarDaySP" ReturnType="Collection(TaskManagementDBModel.GetTasksPerCalendarDaySP_Result)">
+      <Parameter Name="date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetOrdersPerEquipmentSP" ReturnType="Collection(TaskManagementDBModel.GetOrdersPerEquipmentSP_Result)">
+      <Parameter Name="EqID" Mode="In" Type="Int32" />
+      <Parameter Name="Date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="CreateAlert">
+      <Parameter Name="alertID" Mode="In" Type="Guid" />
+      <Parameter Name="alertCreatedByID" Mode="In" Type="Guid" />
+      <Parameter Name="alertDescription" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetTodayAlert" ReturnType="Collection(TaskManagementDBModel.GetTodayAlert_Result)" />
+    <FunctionImport Name="CreateDepartmentSP">
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="HOD" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteDepartmentSP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetCurrentDepartmentHODSP" ReturnType="Collection(TaskManagementDBModel.GetCurrentDepartmentHODSP_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdatDepartmentSP">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Desc" Mode="In" Type="String" />
+      <Parameter Name="HOD" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetTodaysOrdersSP" ReturnType="Collection(TaskManagementDBModel.GetTodaysOrdersSP_Result)">
+      <Parameter Name="TodayDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetUserDetails" ReturnType="Collection(TaskManagementDBModel.GetUserDetails_Result)">
+      <Parameter Name="ID" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="ChangeUserPictName">
+      <Parameter Name="userID" Mode="In" Type="Guid" />
+      <Parameter Name="pictureName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="OrdersNotReturnedSP" ReturnType="Collection(TaskManagementDBModel.OrdersNotReturnedSP_Result)" />
+    <FunctionImport Name="UpdateRoleSP" ReturnType="Collection(TaskManagementDBModel.UpdateRoleSP_Result)">
+      <Parameter Name="DeptID" Mode="In" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Guid" />
+      <Parameter Name="SuperUserID" Mode="In" Type="Guid" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetChecklistsPerTaskSP_Result">
+    <Property Type="Guid" Name="CHECKLIST_ID" Nullable="false" />
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="CHECKLIST_Description" Nullable="false" MaxLength="Max" />
+    <Property Type="Boolean" Name="CHECKLIST_IsCompleted" Nullable="false" />
+    <Property Type="Int32" Name="CHECKLIST_Weight" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetGendesrSP_Result">
+    <Property Type="Int32" Name="GENDER_ID" Nullable="false" />
+    <Property Type="String" Name="GENDER_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetLevelsSP_Result">
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="LEVELT_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetProjectDetailsSP_Result">
+    <Property Type="Guid" Name="PROJECT_ID" Nullable="false" />
+    <Property Type="String" Name="PROJECT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="PROJECT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="PROJECT_IsActive" Nullable="false" />
+    <Property Type="Guid" Name="PROJECT_Creator" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedEndDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualEndDate" Nullable="true" />
+    <Property Type="Boolean" Name="PROJECT_IsPrivate" Nullable="false" />
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="TASK_ProjectID" Nullable="true" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TASK_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="DateTime" Name="TASK_ActualStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ActualEndDate" Nullable="true" />
+    <Property Type="Boolean" Name="TASK_IsPrivate" Nullable="false" />
+    <Property Type="String" Name="TASK_FolderPath" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="TASK_Weight" Nullable="true" />
+    <Property Type="Int32" Name="TASK_PriorityLevel" Nullable="true" />
+    <Property Type="Guid" Name="TASK_Creator" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_Status" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Boolean" Name="TASK_IsCompleted" Nullable="false" />
+    <Property Type="Boolean" Name="TASK_IsRepeated" Nullable="true" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Int32" Name="TASK_RepeatInterval" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetProjectsListPerCreatorSP_Result">
+    <Property Type="Guid" Name="PROJECT_ID" Nullable="false" />
+    <Property Type="String" Name="PROJECT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="PROJECT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="PROJECT_IsActive" Nullable="false" />
+    <Property Type="Guid" Name="PROJECT_Creator" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedEndDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualEndDate" Nullable="true" />
+    <Property Type="Boolean" Name="PROJECT_IsPrivate" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetProjectsListSP_Result">
+    <Property Type="Guid" Name="PROJECT_ID" Nullable="false" />
+    <Property Type="String" Name="PROJECT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="PROJECT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="Boolean" Name="PROJECT_IsActive" Nullable="false" />
+    <Property Type="Guid" Name="PROJECT_Creator" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ExpectedEndDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="PROJECT_ActualEndDate" Nullable="true" />
+    <Property Type="Boolean" Name="PROJECT_IsPrivate" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetRepeatIntervalsSP_Result">
+    <Property Type="Int32" Name="RI_ID" Nullable="false" />
+    <Property Type="String" Name="RI_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetStatussSP_Result">
+    <Property Type="Int32" Name="STATUST_ID" Nullable="false" />
+    <Property Type="String" Name="STATUST_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetTasksPerDayPerUserSP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetUserTSP_Result">
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_HashPassword" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="USERT_Registered_Time" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="USERT_OnlineStatus" Nullable="true" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="GENDER_ID" Nullable="true" />
+    <Property Type="DateTime" Name="USERT_DOB" Nullable="true" />
+    <Property Type="String" Name="USERT_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Byte" Name="USERT_MemberStatus" Nullable="true" />
+    <Property Type="Boolean" Name="USERT_IsActive" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetUserTsSP_Result">
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_HashPassword" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="USERT_Registered_Time" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="USERT_OnlineStatus" Nullable="true" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="GENDER_ID" Nullable="true" />
+    <Property Type="DateTime" Name="USERT_DOB" Nullable="true" />
+    <Property Type="String" Name="USERT_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Byte" Name="USERT_MemberStatus" Nullable="true" />
+    <Property Type="Boolean" Name="USERT_IsActive" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="ListOfTasksAssignedToUserID_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TASK_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="Int32" Name="TASK_Weight" Nullable="true" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="ListOfUsersAssignedToTaskIDSP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetTaskSP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="TASK_ProjectID" Nullable="true" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TASK_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="DateTime" Name="TASK_ActualStartDate" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ActualEndDate" Nullable="true" />
+    <Property Type="Boolean" Name="TASK_IsPrivate" Nullable="false" />
+    <Property Type="String" Name="TASK_FolderPath" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="TASK_Weight" Nullable="true" />
+    <Property Type="Int32" Name="TASK_PriorityLevel" Nullable="true" />
+    <Property Type="Guid" Name="TASK_Creator" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_Status" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Boolean" Name="TASK_IsCompleted" Nullable="false" />
+    <Property Type="Boolean" Name="TASK_IsRepeated" Nullable="true" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Int32" Name="TASK_RepeatInterval" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetCommentsPerTaskSP_Result">
+    <Property Type="Guid" Name="COMMENT_ID" Nullable="false" />
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="COMMENT_Description" Nullable="false" MaxLength="Max" />
+    <Property Type="DateTime" Name="COMMENT_DatePosted" Nullable="false" Precision="23" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetCompletedTasksPerDaySP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" />
+    <Property Type="DateTime" Name="TASK_ActualEndDate" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetChecklistsWeightPerTaskSP_Result">
+    <Property Type="Boolean" Name="CHECKLIST_IsCompleted" Nullable="false" />
+    <Property Type="Int32" Name="CHECKLIST_Weight" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTasksPerDaySP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" />
+    <Property Type="Int32" Name="TotWeight" Nullable="true" />
+    <Property Type="Int32" Name="TotWeightNotCompleted" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTaskUsersSP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="LogUserSP_Result">
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_HashPassword" Nullable="false" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="USERT_Registered_Time" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="USERT_OnlineStatus" Nullable="true" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="GENDER_ID" Nullable="true" />
+    <Property Type="DateTime" Name="USERT_DOB" Nullable="true" />
+    <Property Type="String" Name="USERT_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Byte" Name="USERT_MemberStatus" Nullable="true" />
+    <Property Type="Boolean" Name="USERT_IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="isFirstTimeLogin" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="UerFullTextSearch_Result">
+    <Property Type="Guid" Name="UserID" Nullable="true" />
+    <Property Type="String" Name="User_Name" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="User_UserName" Nullable="true" MaxLength="30" />
+    <Property Type="Int32" Name="User_LevelID" Nullable="true" />
+    <Property Type="String" Name="User_Email" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="User_PictureName" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="User_RegistrationDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="User_PhoneNumber" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="User_GenderID" Nullable="true" />
+    <Property Type="DateTime" Name="User_DOB" Nullable="true" />
+    <Property Type="String" Name="User_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="User_DepartmentID" Nullable="true" />
+    <Property Type="Boolean" Name="User_IsActive" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetDepartmentSP_Result">
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="String" Name="DEPT_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="Guid" Name="Dept_HOD" Nullable="false" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="GetDepartmentsSP_Result">
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="String" Name="DEPT_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="Guid" Name="Dept_HOD" Nullable="false" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="GetOtherMembersInDeptRespSP_Result">
+    <Property Type="Guid" Name="DRU_ID" Nullable="false" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetResponsibilitiesPerDeptSP_Result">
+    <Property Type="Int32" Name="RESPONSIBILITY_ID" Nullable="false" />
+    <Property Type="String" Name="RESPONSIBILITY_Title" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="RESPONSIBILITY_Desc" Nullable="false" MaxLength="200" />
+    <Property Type="Boolean" Name="RESPONSIBILITY_IsActive" Nullable="false" />
+    <Property Type="Int32" Name="DeptID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetNotificationType_Result">
+    <Property Type="Byte" Name="typeID" Nullable="false" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetEquipmentsSP_Result">
+    <Property Type="Int32" Name="EQ_ID" Nullable="false" />
+    <Property Type="String" Name="EQ_Name" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="EQ_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="Int32" Name="EQ_Quantity" Nullable="false" />
+    <Property Type="Int32" Name="EQ_QuantityOrdered" Nullable="false" />
+    <Property Type="Boolean" Name="EQ_IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="EQ_IsApproved" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetListOfTodayNotification_Result">
+    <Property Type="DateTime" Name="notificationDateTime" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="typeID" Nullable="false" />
+    <Property Type="String" Name="message" Nullable="false" MaxLength="100" />
+    <Property Type="Byte" Name="priorityID" Nullable="true" />
+    <Property Type="Int32" Name="groupID" Nullable="true" />
+    <Property Type="Guid" Name="notiID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="GetUserNotifications_Result">
+    <Property Type="DateTime" Name="notificationDateTime" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="typeID" Nullable="false" />
+    <Property Type="Guid" Name="USER_ID" Nullable="false" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" />
+    <Property Type="Guid" Name="notiID" Nullable="false" />
+    <Property Type="String" Name="message" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="GetOrderShoppingCartSP_Result">
+    <Property Type="Guid" Name="OE_ID" Nullable="false" />
+    <Property Type="Int32" Name="OE_QuantityOrdered" Nullable="false" />
+    <Property Type="String" Name="OE_Comment" Nullable="false" MaxLength="Max" />
+    <Property Type="DateTime" Name="OE_DateOrdered" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="STATUST_ID" Nullable="false" />
+    <Property Type="DateTime" Name="OE_Return_Time" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="OE_Out_Time" Nullable="true" Precision="23" />
+    <Property Type="String" Name="STATUST_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="EQ_Name" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetAllPreviousTasksPerCalendarDaySP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TotWeight" Nullable="true" />
+    <Property Type="Int32" Name="TotWeightNotCompleted" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetCompletedCalendarTasksPerDaySP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="TASK_ActualEndDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="GetTasksPerCalendarDayPerUserSP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TotWeight" Nullable="true" />
+    <Property Type="Int32" Name="TotWeightNotCompleted" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTasksPerCalendarDaySP_Result">
+    <Property Type="Guid" Name="TASK_ID" Nullable="false" />
+    <Property Type="String" Name="TASK_Name" Nullable="false" MaxLength="100" />
+    <Property Type="DateTime" Name="TASK_ExpectedEndDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TASK_NumberOfComments" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListCompletedNo" Nullable="false" />
+    <Property Type="Byte" Name="TASK_CheckListNo" Nullable="false" />
+    <Property Type="Int32" Name="TASK_NumberOfUsersAssigned" Nullable="true" />
+    <Property Type="DateTime" Name="TASK_ExpectedStartDate" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="TotWeight" Nullable="true" />
+    <Property Type="Int32" Name="TotWeightNotCompleted" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetOrdersPerEquipmentSP_Result">
+    <Property Type="Guid" Name="OE_ID" Nullable="false" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="30" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="Int32" Name="OE_QuantityOrdered" Nullable="false" />
+    <Property Type="String" Name="OE_Comment" Nullable="false" MaxLength="Max" />
+    <Property Type="DateTime" Name="OE_DateOrdered" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="STATUST_ID" Nullable="false" />
+    <Property Type="DateTime" Name="OE_Return_Time" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="OE_Out_Time" Nullable="true" Precision="23" />
+    <Property Type="String" Name="STATUST_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetTodayAlert_Result">
+    <Property Type="Guid" Name="alertID" Nullable="false" />
+    <Property Type="Guid" Name="alertCreatedByID" Nullable="false" />
+    <Property Type="String" Name="alertDescription" Nullable="false" MaxLength="200" />
+    <Property Type="DateTime" Name="alertDateTime" Nullable="false" Precision="23" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="GetCurrentDepartmentHODSP_Result">
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="String" Name="DEPT_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="Guid" Name="Dept_HOD" Nullable="false" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetTodaysOrdersSP_Result">
+    <Property Type="Guid" Name="OE_ID" Nullable="false" />
+    <Property Type="Int32" Name="EQ_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="Int32" Name="OE_QuantityOrdered" Nullable="false" />
+    <Property Type="DateTime" Name="OE_DateOrdered" Nullable="false" Precision="23" />
+    <Property Type="Boolean" Name="OE_IsReturned" Nullable="false" />
+    <Property Type="String" Name="OE_Comment" Nullable="false" MaxLength="Max" />
+    <Property Type="Boolean" Name="OE_IsDeleted" Nullable="false" />
+    <Property Type="Int32" Name="STATUST_ID" Nullable="false" />
+    <Property Type="DateTime" Name="OE_Return_Time" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="OE_Out_Time" Nullable="true" Precision="23" />
+    <Property Type="String" Name="STATUST_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EQ_Name" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="GetUserDetails_Result">
+    <Property Type="String" Name="GENDER_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="LEVELT_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="USERT_Registered_Time" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="USERT_OnlineStatus" Nullable="true" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="GENDER_ID" Nullable="true" />
+    <Property Type="DateTime" Name="USERT_DOB" Nullable="true" />
+    <Property Type="String" Name="USERT_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Byte" Name="USERT_MemberStatus" Nullable="true" />
+    <Property Type="Boolean" Name="USERT_IsActive" Nullable="false" />
+    <Property Type="String" Name="DEPT_Desc" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="OrdersNotReturnedSP_Result">
+    <Property Type="Guid" Name="OE_ID" Nullable="false" />
+    <Property Type="Int32" Name="EQ_ID" Nullable="false" />
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="Int32" Name="OE_QuantityOrdered" Nullable="false" />
+    <Property Type="DateTime" Name="OE_DateOrdered" Nullable="false" Precision="23" />
+    <Property Type="Boolean" Name="OE_IsReturned" Nullable="false" />
+    <Property Type="String" Name="OE_Comment" Nullable="false" MaxLength="Max" />
+    <Property Type="Boolean" Name="OE_IsDeleted" Nullable="false" />
+    <Property Type="Int32" Name="STATUST_ID" Nullable="false" />
+    <Property Type="DateTime" Name="OE_Return_Time" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="OE_Out_Time" Nullable="true" Precision="23" />
+    <Property Type="String" Name="STATUST_Desc" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EQ_Name" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="UpdateRoleSP_Result">
+    <Property Type="Guid" Name="USERT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Name" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="USERT_Username" Nullable="false" MaxLength="30" />
+    <Property Type="Int32" Name="LEVELT_ID" Nullable="false" />
+    <Property Type="String" Name="USERT_Desc" Nullable="true" MaxLength="Max" />
+    <Property Type="String" Name="USERT_Email" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="USERT_HashPassword" Nullable="false" />
+    <Property Type="String" Name="USERT_PhotoLink" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="USERT_Registered_Time" Nullable="false" Precision="23" />
+    <Property Type="Byte" Name="USERT_OnlineStatus" Nullable="true" />
+    <Property Type="String" Name="USERT_PhoneNumber" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="GENDER_ID" Nullable="true" />
+    <Property Type="DateTime" Name="USERT_DOB" Nullable="true" />
+    <Property Type="String" Name="USERT_Address" Nullable="true" MaxLength="150" />
+    <Property Type="Int32" Name="DEPT_ID" Nullable="false" />
+    <Property Type="Byte" Name="USERT_MemberStatus" Nullable="true" />
+    <Property Type="Boolean" Name="USERT_IsActive" Nullable="false" />
+    <Property Type="Boolean" Name="isFirstTimeLogin" Nullable="false" />
+  </ComplexType>
+</Schema>

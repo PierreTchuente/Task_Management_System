@@ -1,0 +1,36 @@
+﻿
+<div class="panel panel-default task-notification" ng-cloak ng-repeat="(key, alert) in ListOfTodayAlert">
+
+    <div class="panel-body res-box alert-note" data-toggle="modal" data-target="#ModalAlert">
+
+        <ul class="comment list-unstyled">
+            <li class="comment">
+                <!-- avatar -->
+                <img class="avatar"  ng-src="{{alert.USERT_PhotoLink}}" ng-attr-title="{{alert.USERT_Name}}" width="50" height="50" altSrc="/TaskManagementImages/defaultUser.png" onerror="this.src = $(this).attr('altSrc')">
+                <!-- comment body -->
+                <div class="comment-body">
+                    <a href="#" class="comment-author">
+                        <small class="text-muted pull-right"> {{alert.alertDateTime | date: 'medium'}} </small>
+                        <span>{{alert.USERT_Username}}</span>
+                    </a>
+                    <p>
+                        {{alert.alertDescription}}
+                    </p>
+                </div><!-- /comment body -->
+                <!-- options -->
+                @*<ul class="list-inline size-11 margin-top-10">
+                    <li>
+                        <a href="#" class="text-info"><i class="fa fa-comments-o"></i> 20 Comments</a>
+                    </li>
+
+                    <li class="pull-right">
+                        <a href="#" class="text-danger">Delete</a>
+                    </li>
+                </ul>*@
+            </li><!-- /options -->
+        </ul>
+
+    </div>
+</div>
+
+

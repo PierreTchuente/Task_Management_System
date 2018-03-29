@@ -1,0 +1,237 @@
+﻿@model TaskManagementDBLibrary.Model.UserModel
+
+@{
+    ViewBag.Title = "User Details";
+}
+
+<h3 align="center" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"> User Details </h3>
+
+<style>
+    .form-control {
+        width: 75%;
+        /*margin-top:2px;*/
+    }
+
+    .input-group .form-control {
+        width: 73%;
+    }
+    /*html {
+      background-image:linear-gradient(#eee, #aaa);
+      height:100%;
+    }*/
+
+    img {
+        /*border: solid 2px;*/
+        border-bottom-color: #ffe;
+        border-left-color: #eed;
+        border-right-color: #eed;
+        border-top-color: #ccb;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+   /* .frame {
+        background-color: #ddc;
+        border: solid 5vmin #eee;
+        border-bottom-color: #fff;
+        border-left-color: #eee;
+        border-radius: 2px;
+        border-right-color: #eee;
+        border-top-color: #ddd;
+        box-shadow: 0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+        box-sizing: border-box;
+        display: inline-block;
+        margin:10vh 10vw;
+        height: 40vh;
+        padding:8vmin;
+        position: relative;
+        text-align: center;
+        &:before;
+
+    {
+        border-radius: 2px;
+        bottom: -2vmin;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.25) inset;
+        content: "";
+        left: -2vmin;
+        position: absolute;
+        right: -2vmin;
+        top: -2vmin;
+    }
+
+    &:after {
+        border-radius: 2px;
+        bottom: -2.5vmin;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+        content: "";
+        left: -2.5vmin;
+        position: absolute;
+        right: -2.5vmin;
+        top: -2.5vmin;
+    }
+
+    } */
+</style>
+
+<div style="margin-left:10%;margin-right:20%" ng-cloak>
+
+    <hr />
+    <div class="form-horizontal">
+
+        <div class="col-md-4">
+            <div class="frame"> <img @*style="width:120px;height:100px;"*@ id="UserPict" src="/TaskManagementImages/@Model.id.ToString()/@Html.DisplayFor(model => model.photoLink)" altSrc="/TaskManagementImages/DefaultImage/defaultUser.png" onerror="this.src = $(this).attr('altSrc')" /></div>
+            <p style="margin-top:10px; margin-left:10px;">
+                <input id="upload" type="file" style="display:none" />
+                <a href="#" id="upload_link" ng-click="ChangePicture($event)">Change Your Picture </a>
+            </p>
+        </div>
+
+
+        <div class="col-md-4">
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.name)
+            </label>
+            <div class="form-control">
+                @Html.DisplayFor(model => model.name)
+            </div>
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.email)
+            </label>
+            <div class="input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                </div>
+                <div class="form-control">
+                    @Html.DisplayFor(model => model.email)
+                </div>
+            </div>
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.registeredTime)
+            </label>
+            <div class="form-control">
+                @Html.DisplayFor(model => model.registeredTime)
+            </div>
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.phone)
+            </label>
+            <div class="input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-phone-alt"></span>
+                </div>
+                <div class="form-control">
+                    @Html.DisplayFor(model => model.phone)
+                </div>
+            </div>
+
+
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.gender)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.gender)
+            </div>
+
+            <label>
+                @Html.DisplayNameFor(model => model.DOB)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.DOB)
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.address)
+            </label>
+            <div class="input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-home"></span>
+                </div>
+                <div class="form-control">
+                    @Html.DisplayFor(model => model.address)
+                </div>
+            </div>
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.UserLevel)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.UserLevel)
+            </div>
+
+            <label>
+                @Html.DisplayNameFor(model => model.Department)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.Department)
+            </div>
+
+            <label>
+                @Html.DisplayNameFor(model => model.memberStatus)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.memberStatus)
+            </div>
+
+            <label>
+                @Html.DisplayNameFor(model => model.isActive)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.isActive)
+            </div>
+
+
+            <label>
+                @Html.DisplayNameFor(model => model.onlineStatus)
+            </label>
+
+            <div class="form-control">
+                @Html.DisplayFor(model => model.onlineStatus)
+            </div>
+
+        </div>
+
+   
+
+    </div>
+</div>
+
+
+@*<script>
+    $(function () {
+
+        Console.log("Hello file upload");
+
+        $("#upload_link").click(function (e) {
+
+            //debugger;
+
+            e.preventDefault();
+
+         
+
+            $("#upload:hidden").trigger('click');
+        });
+    });
+</script>*@

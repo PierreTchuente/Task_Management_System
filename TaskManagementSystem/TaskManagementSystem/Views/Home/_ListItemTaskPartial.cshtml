@@ -1,0 +1,17 @@
+﻿ <div class="panel panel-default squarepanel" ng-cloak id="divItem_{{Key}}" ng-click="details(task.TASK_ID)">
+        <div class="panel-body res-box {{task.color}}"  data-toggle="modal" data-target="#myTask1">
+            <div class="col-md-12 notification"><hr class="hr-line-grey" style="width:{{task.width}}"></div>
+            <span class="res-title">{{task.TASK_Name}}</span>
+            <div class="col-md-12 row">
+
+                <span>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> {{task.TASK_ExpectedEndDate}}
+                </span>
+
+                <i class="fa fa-comments-o" aria-hidden="true"></i> {{task.TASK_NumberOfComments}}
+               
+                &nbsp;&nbsp;
+                <i class="fa fa-user" aria-hidden="true"></i> {{task.TASK_NumberOfUsersAssigned}}
+            </div>
+        </div>
+</div>
